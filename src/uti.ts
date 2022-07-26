@@ -6,11 +6,9 @@ export async function getGames(chessUsername: string): Promise<Game[]> {
     throw new Error('milliseconds not a number');
   }
 
-  const { data } = await axios
-    .get(`https://api.chess.com/pub/player/${chessUsername}/games/2022/07`)
-    .then(res => JSON.parse(res.data));
+  const { data } = await axios.get<{ games: Game[] }>(
+    `https://api.chess.com/pub/player/${chessUsername}/games/2022/07`
+  );
 
-  console.log(data);
-
-  return data.games;
+  return data.games.slice(0, 5);
 }
