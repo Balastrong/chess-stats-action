@@ -5,6 +5,7 @@ import { test } from '@jest/globals';
 
 // shows how the runner will run a javascript action with env / stdout protocol
 test('test runs', () => {
+  process.env['INPUT_DEBUG'] = 'true';
   process.env['INPUT_CHESS_USERNAME'] = 'balastrong';
   const np = process.execPath;
   const ip = path.join(__dirname, '..', 'lib', 'main.js');

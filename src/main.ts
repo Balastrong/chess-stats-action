@@ -4,6 +4,7 @@ import { commitFile, END_TOKEN, getGames, START_TOKEN } from './uti';
 
 async function run(): Promise<void> {
   const chessUsername: string = getInput('CHESS_USERNAME');
+  const isDebug: boolean = getInput('DEBUG') === 'true';
 
   const games = await getGames(chessUsername);
 
@@ -34,14 +35,15 @@ async function run(): Promise<void> {
   // Update README
   fs.writeFileSync('./README.md', newReadme);
 
-  // Commit to the remote repository
-  try {
-    await commitFile();
-  } catch (err) {
-    if (err instanceof Error) {
-      return setFailed(err);
-    } else {
-      return setFailed("Couldn't commit the file");
+  if (!isDebug) {
+    try {
+      await commitFile();
+    } catch (err) {
+      if (err instanceof Error) {
+        return setFailed(err);
+      } else {
+        return setFailed("Couldn't commit the file");
+      }
     }
   }
 
