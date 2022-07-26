@@ -1,19 +1,17 @@
-import * as core from '@actions/core'
-import {wait} from './wait'
+import { getInput, setFailed, debug } from '@actions/core';
+import { getGames } from './uti';
 
 async function run(): Promise<void> {
   try {
-    const ms: string = core.getInput('milliseconds')
-    core.debug(`Waiting ${ms} milliseconds ...`) // debug is only output if you set the secret `ACTIONS_STEP_DEBUG` to true
+    const chessUsername: string = getInput('CHESS_USERNAME');
+    debug('Detected username ' + chessUsername + '<<--');
 
-    core.debug(new Date().toTimeString())
-    await wait(parseInt(ms, 10))
-    core.debug(new Date().toTimeString())
+    //const games = await getGames(chessUsername);
 
-    core.setOutput('time', new Date().toTimeString())
+    //debug(JSON.stringify(games[0]));
   } catch (error) {
-    if (error instanceof Error) core.setFailed(error.message)
+    if (error instanceof Error) setFailed('XX' + error.message);
   }
 }
 
-run()
+run();
