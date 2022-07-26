@@ -1,0 +1,11 @@
+name: 'Chess.com Stats'
+description: 'Automatically update your README.md with Chess.com stats - fully customizable'
+author: 'Leonardo Montini'
+inputs:
+  CHESS_USERNAME:
+    required: true
+    description: 'Your Chess.com username'
+    default: 'hikaru'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
