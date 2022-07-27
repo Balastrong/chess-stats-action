@@ -21,20 +21,6 @@ Add these two placeholders somewhere in your `README.md`, they will get replaced
 
 ```html
 <!--START_SECTION:chessStats-->
-<!-- Automatically generated with https://github.com/Balastrong/chess-stats-action -->
-
-| White ⚪ | Black ⚫ | Result 🏆  | Date 📅  |
-|:---:|:---:|:---:|:---:|
-| **Hikaru** | TigrVShlyape | <span style="color: green">win</span> | 26/7/2022 |
-| **Hikaru** | Salem-AR | <span style="color: gray">stalemate</span> | 26/7/2022 |
-| mbojan | **Hikaru** | <span style="color: green">win</span> | 26/7/2022 |
-| **Hikaru** | honestgames | <span style="color: green">win</span> | 26/7/2022 |
-| Russian_berezka | **Hikaru** | <span style="color: green">win</span> | 26/7/2022 |
-| **Hikaru** | bipe137 | <span style="color: green">win</span> | 26/7/2022 |
-| Witik | **Hikaru** | <span style="color: red">resigned</span> | 26/7/2022 |
-| **Hikaru** | Manukyan_Artak | <span style="color: green">win</span> | 26/7/2022 |
-| K_A_S_T_O_R | **Hikaru** | <span style="color: red">resigned</span> | 26/7/2022 |
-| **Hikaru** | jinbojinbo | <span style="color: green">win</span> | 26/7/2022 |
 
 <!--END_SECTION:chessStats-->
 ```
@@ -54,6 +40,7 @@ jobs:
     name: Update readme with your chess stats and games
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - uses: Balastrong/chess-stats-action@master
         with:
           CHESS_USERNAME: <Your chess.com Username>
