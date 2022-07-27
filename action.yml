@@ -10,6 +10,14 @@ inputs:
     description: "Commit message used while committing to the repo"
     default: "Update README with your chess games"
     required: false
+  GAMES_SIZE:
+    description: "How many games to load"
+    default: "10"
+    required: false
+  SHOW_DATE:
+    description: "Toggle the Date column"
+    default: "true"
+    required: false
 runs:
   using: 'node16'
   main: 'dist/index.js'
