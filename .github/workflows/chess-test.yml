@@ -10,6 +10,7 @@ jobs:
     name: Update readme with your chess stats and games
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - uses: ./
         with:
           CHESS_USERNAME: 'hikaru'
