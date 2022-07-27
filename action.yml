@@ -1,6 +1,7 @@
 name: 'Chess.com Stats'
 description: 'Automatically update your README.md with Chess.com stats - fully customizable'
 author: 'Leonardo Montini'
+
 inputs:
   CHESS_USERNAME:
     description: 'Your Chess.com username'
@@ -18,6 +19,11 @@ inputs:
     description: "Toggle the Date column"
     default: "true"
     required: false
+    
 runs:
   using: 'node16'
   main: 'dist/index.js'
+
+branding:
+  icon: 'activity'
+  color: 'green'
