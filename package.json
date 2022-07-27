@@ -2,7 +2,7 @@
   "name": "chess-stats-action",
   "version": "0.0.1",
   "private": true,
-  "description": "Automatically update your README.md with Chess.com stats - fully customizable",
+  "description": "Automatically update your README.md with Chess.com games and stats - fully customizable",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",

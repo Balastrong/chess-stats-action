@@ -1,5 +1,5 @@
-name: 'Chess.com Stats'
-description: 'Automatically update your README.md with Chess.com stats - fully customizable'
+name: 'Chess.com Games & Stats'
+description: 'Automatically update your README.md with Chess.com games and stats - fully customizable'
 author: 'Leonardo Montini'
 
 inputs:

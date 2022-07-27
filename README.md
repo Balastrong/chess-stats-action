@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: Balastrong/chess-stats-action@master
+      - uses: Balastrong/chess-stats-action@main
         with:
           CHESS_USERNAME: <Your chess.com Username>
 ```
