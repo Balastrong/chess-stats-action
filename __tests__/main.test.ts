@@ -8,6 +8,7 @@ test('test runs', () => {
   process.env['INPUT_DEBUG'] = 'true'; // DO NOT REMOVE or it will mess git configs and README.md
   process.env['INPUT_CHESS_USERNAME'] = 'hikaru';
   process.env['INPUT_GAMES_SIZE'] = '10';
+  process.env['INPUT_SHOW_DATE'] = 'true';
   const np = process.execPath;
   const ip = path.join(__dirname, '..', 'lib', 'main.js');
   const options: cp.ExecFileSyncOptions = {

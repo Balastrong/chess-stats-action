@@ -72,7 +72,7 @@ export const formatTable = (
   showDate: boolean
 ): string => {
   const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆  |${
-    showDate ? ' Date |' : ''
+    showDate ? ' Date 📅  |' : ''
   }\n|:---:|:---:|:---:|${showDate ? ':---:|' : ''}\n`;
 
   const lowerCasePlayer = player.toLowerCase();
