@@ -13,6 +13,7 @@ import {
 export const CHESS_USERNAME = getInput('CHESS_USERNAME');
 export const GAMES_SIZE = parseInt(getInput('GAMES_SIZE')) || 10;
 export const SHOW_DATE = getInput('SHOW_DATE') === 'true';
+export const SHOW_FEN = getInput('SHOW_FEN') === 'true';
 export const COMMIT_MSG = getInput('COMMIT_MSG');
 export const IS_DEBUG = getInput('IS_DEBUG') === 'true';
 export const FILE_NAME = getInput('FILE_NAME');
@@ -26,7 +27,7 @@ async function run(): Promise<void> {
 
   setOutput('response', games.length + ' games found!');
 
-  const gamesString = formatTable(games, CHESS_USERNAME, SHOW_DATE);
+  const gamesString = formatTable(games, CHESS_USERNAME, SHOW_DATE, SHOW_FEN);
 
   // Write the games to the README.md file
   const readmeContent = fs.readFileSync('./' + FILE_NAME, 'utf-8');

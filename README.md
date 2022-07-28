@@ -56,6 +56,7 @@ There are a few configuration options you can use in your GitHub Action.
 |   COMMIT_MSG   | Commit message used while committing to the repo | Update README with your chess games |    No    |
 |   GAMES_SIZE   |              How many games to load              |                 10                  |    No    |
 |   SHOW_DATE    |              Toggle the Date column              |                true                 |    No    |
+|    SHOW_FEN    |            Toggle the Position column            |                true                 |    No    |
 |   FILE_NAME    |       Define a specific file in your repo        |              README.md              |    No    |
 
 ## Contributing

@@ -5,7 +5,7 @@
       "name": "ts-node",
       "type": "node",
       "request": "launch",
-      "args": ["${relativeFile}"],
+      "args": ["./src/main.ts"],
       "runtimeArgs": ["-r", "ts-node/register"],
       "cwd": "${workspaceRoot}",
       "internalConsoleOptions": "openOnSessionStart",
@@ -13,7 +13,8 @@
         "INPUT_IS_DEBUG": "true",
         "INPUT_FILE_NAME": "README-DEMO.md",
         "INPUT_CHESS_USERNAME": "hikaru",
-        "INPUT_SHOW_DATE": "true"
+        "INPUT_SHOW_DATE": "true",
+        "INPUT_SHOW_FEN": "true"
       }
     }
   ]

@@ -4,6 +4,7 @@ export type Game = {
   black: Player;
   time_class: string;
   end_time: number;
+  fen: string;
 };
 
 export type Player = {

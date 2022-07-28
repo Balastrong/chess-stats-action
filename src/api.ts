@@ -5,6 +5,7 @@ export const getChessComGames = async (archive: string): Promise<Game[]> => {
   const { data } = await axios.get<{ games: Game[] }>(archive);
   return data.games.map((game: Game) => ({
     url: game.url,
+    fen: game.fen,
     white: {
       rating: game.white.rating,
       result: game.white.result,

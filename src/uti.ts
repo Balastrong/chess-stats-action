@@ -69,11 +69,16 @@ const exec = (cmd: string, args: string[] = []) =>
 export const formatTable = (
   games: Game[],
   player: string,
-  showDate: boolean
+  showDate: boolean,
+  showFen: boolean
 ): string => {
-  const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆  |${
-    showDate ? ' Date 📅  |' : ''
-  }\n|:---:|:---:|:---:|${showDate ? ':---:|' : ''}\n`;
+  const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆 |${
+    showDate ? ' Date 📅 |' : ''
+  }${showFen ? ' Position 🗺️ |' : ''}`;
+
+  const extraColumnsSize = [showDate, showFen].filter(Boolean).length;
+  const tableSeparator =
+    '|' + Array.from({ length: 3 + extraColumnsSize }, () => ':---:|').join('');
 
   const lowerCasePlayer = player.toLowerCase();
 
@@ -97,11 +102,17 @@ export const formatTable = (
         );
       }
 
+      if (showFen) {
+        data.push(
+          `<a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=${game.fen}">Link</a>`
+        );
+      }
+
       return `| ${data.join(' | ')} |`;
     })
     .join('\n');
 
-  return `${tableHeader}${gameRows}\n`;
+  return `${tableHeader}\n${tableSeparator}\n${gameRows}\n`;
 };
 
 const boldifyPlayer = (test: string, player: string): string =>
