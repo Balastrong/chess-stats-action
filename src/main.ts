@@ -14,7 +14,7 @@ export const CHESS_USERNAME = getInput('CHESS_USERNAME');
 export const GAMES_SIZE = parseInt(getInput('GAMES_SIZE')) || 10;
 export const SHOW_DATE = getInput('SHOW_DATE') === 'true';
 export const COMMIT_MSG = getInput('COMMIT_MSG');
-export const IS_DEBUG = getInput('DEBUG') === 'true';
+export const IS_DEBUG = getInput('IS_DEBUG') === 'true';
 export const FILE_NAME = getInput('FILE_NAME');
 
 async function run(): Promise<void> {
@@ -49,7 +49,6 @@ async function run(): Promise<void> {
 
   // Update README
   fs.writeFileSync('./' + FILE_NAME, newReadme);
-
   if (!IS_DEBUG) {
     try {
       await commitFile();
@@ -63,6 +62,7 @@ async function run(): Promise<void> {
   }
 
   setOutput('response', 'Successfully updated the README file!');
+  return;
 }
 
 run();

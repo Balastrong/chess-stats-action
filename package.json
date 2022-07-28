@@ -12,7 +12,8 @@
     "package": "ncc build --source-map --license licenses.txt",
     "test": "jest",
     "test-rebuild": "npm run build && npm run test",
-    "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
+    "all": "npm run build && npm run format && npm run lint && npm run package && npm test",
+    "debug": "INPUT_IS_DEBUG='true' INPUT_FILE_NAME='README-DEMO.md' INPUT_CHESS_USERNAME='hikaru' INPUT_SHOW_DATE='true' npx ts-node ./src/main.ts"
   },
   "repository": {
     "type": "git",
@@ -41,6 +42,7 @@
     "js-yaml": "^4.1.0",
     "prettier": "2.5.1",
     "ts-jest": "^27.1.2",
+    "ts-node": "^10.9.1",
     "typescript": "^4.4.4"
   }
 }

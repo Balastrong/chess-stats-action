@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ts-node",
+      "type": "node",
+      "request": "launch",
+      "args": ["${relativeFile}"],
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "cwd": "${workspaceRoot}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "env": {
+        "INPUT_IS_DEBUG": "true",
+        "INPUT_FILE_NAME": "README-DEMO.md",
+        "INPUT_CHESS_USERNAME": "hikaru",
+        "INPUT_SHOW_DATE": "true"
+      }
+    }
+  ]
+}
