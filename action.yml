@@ -19,6 +19,10 @@ inputs:
     description: "Toggle the Date column"
     default: "true"
     required: false
+  FILE_NAME:
+    description: "Define a specific file in your repo"
+    default: "README.md"
+    required: false
     
 runs:
   using: 'node16'

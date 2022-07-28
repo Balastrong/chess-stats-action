@@ -21,20 +21,6 @@ Add these two placeholders somewhere in your `README.md`, they will get replaced
 
 ```html
 <!--START_SECTION:chessStats-->
-<!-- Automatically generated with https://github.com/Balastrong/chess-stats-action -->
-
-| White ⚪ | Black ⚫ | Result 🏆  | Date 📅  |
-|:---:|:---:|:---:|:---:|
-| Mykola-Bortnyk | **Hikaru** | <span style="color: green">win</span> | 28/7/2022 |
-| **Hikaru** | Mykola-Bortnyk | <span style="color: green">win</span> | 28/7/2022 |
-| Mykola-Bortnyk | **Hikaru** | <span style="color: green">win</span> | 28/7/2022 |
-| **Hikaru** | Mykola-Bortnyk | <span style="color: black">repetition</span> | 28/7/2022 |
-| NikoTheodorou | **Hikaru** | <span style="color: green">win</span> | 27/7/2022 |
-| **Hikaru** | NikoTheodorou | <span style="color: green">win</span> | 27/7/2022 |
-| NikoTheodorou | **Hikaru** | <span style="color: black">repetition</span> | 27/7/2022 |
-| smallxhafa | **Hikaru** | <span style="color: black">repetition</span> | 27/7/2022 |
-| Knukleks | **Hikaru** | <span style="color: green">win</span> | 27/7/2022 |
-| blyp | **Hikaru** | <span style="color: green">win</span> | 27/7/2022 |
 
 <!--END_SECTION:chessStats-->
 ```
@@ -70,6 +56,7 @@ There are a few configuration options you can use in your GitHub Action.
 |   COMMIT_MSG   | Commit message used while committing to the repo | Update README with your chess games |    No    |
 |   GAMES_SIZE   |              How many games to load              |                 10                  |    No    |
 |   SHOW_DATE    |              Toggle the Date column              |                true                 |    No    |
+|   FILE_NAME    |       Define a specific file in your repo        |              README.md              |    No    |
 
 ## Contributing
 

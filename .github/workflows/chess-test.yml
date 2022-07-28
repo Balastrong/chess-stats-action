@@ -14,3 +14,4 @@ jobs:
       - uses: ./
         with:
           CHESS_USERNAME: 'hikaru'
+          FILE_NAME: 'README-DEMO.md'

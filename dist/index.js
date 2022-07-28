@@ -87,7 +87,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
+exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
 const core_1 = __nccwpck_require__(2186);
 const fs = __importStar(__nccwpck_require__(5747));
 const uti_1 = __nccwpck_require__(4791);
@@ -97,9 +97,9 @@ exports.GAMES_SIZE = parseInt((0, core_1.getInput)('GAMES_SIZE')) || 10;
 exports.SHOW_DATE = (0, core_1.getInput)('SHOW_DATE') === 'true';
 exports.COMMIT_MSG = (0, core_1.getInput)('COMMIT_MSG');
 exports.IS_DEBUG = (0, core_1.getInput)('DEBUG') === 'true';
+exports.FILE_NAME = (0, core_1.getInput)('FILE_NAME');
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
-        const fileName = exports.IS_DEBUG ? 'README-DEMO.md' : 'README.md';
         // Get the games from chess.com
         const games = yield (0, uti_1.getGames)(exports.CHESS_USERNAME, exports.GAMES_SIZE);
         if (games.length === 0) {
@@ -108,7 +108,7 @@ function run() {
         (0, core_1.setOutput)('response', games.length + ' games found!');
         const gamesString = (0, uti_1.formatTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE);
         // Write the games to the README.md file
-        const readmeContent = fs.readFileSync('./' + fileName, 'utf-8');
+        const readmeContent = fs.readFileSync('./' + exports.FILE_NAME, 'utf-8');
         const startIndex = readmeContent.indexOf(uti_1.START_TOKEN);
         if (startIndex === -1) {
             (0, core_1.setFailed)(`Couldn't find the START_TOKEN ${uti_1.START_TOKEN} - Exiting!`);
@@ -121,7 +121,7 @@ function run() {
         const readmeSafeParts = readmeContent.split(oldPart);
         const newReadme = `${readmeSafeParts[0]}${uti_1.START_TOKEN}\n${uti_1.INFO_LINE}\n${gamesString}\n${readmeSafeParts[1]}`;
         // Update README
-        fs.writeFileSync('./' + fileName, newReadme);
+        fs.writeFileSync('./' + exports.FILE_NAME, newReadme);
         if (!exports.IS_DEBUG) {
             try {
                 yield (0, uti_1.commitFile)();

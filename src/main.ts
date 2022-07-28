@@ -15,9 +15,9 @@ export const GAMES_SIZE = parseInt(getInput('GAMES_SIZE')) || 10;
 export const SHOW_DATE = getInput('SHOW_DATE') === 'true';
 export const COMMIT_MSG = getInput('COMMIT_MSG');
 export const IS_DEBUG = getInput('DEBUG') === 'true';
+export const FILE_NAME = getInput('FILE_NAME');
 
 async function run(): Promise<void> {
-  const fileName = IS_DEBUG ? 'README-DEMO.md' : 'README.md';
   // Get the games from chess.com
   const games = await getGames(CHESS_USERNAME, GAMES_SIZE);
   if (games.length === 0) {
@@ -29,7 +29,7 @@ async function run(): Promise<void> {
   const gamesString = formatTable(games, CHESS_USERNAME, SHOW_DATE);
 
   // Write the games to the README.md file
-  const readmeContent = fs.readFileSync('./' + fileName, 'utf-8');
+  const readmeContent = fs.readFileSync('./' + FILE_NAME, 'utf-8');
 
   const startIndex = readmeContent.indexOf(START_TOKEN);
   if (startIndex === -1) {
@@ -48,7 +48,7 @@ async function run(): Promise<void> {
   const newReadme = `${readmeSafeParts[0]}${START_TOKEN}\n${INFO_LINE}\n${gamesString}\n${readmeSafeParts[1]}`;
 
   // Update README
-  fs.writeFileSync('./' + fileName, newReadme);
+  fs.writeFileSync('./' + FILE_NAME, newReadme);
 
   if (!IS_DEBUG) {
     try {
