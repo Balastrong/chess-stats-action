@@ -20,4 +20,5 @@ export type Result =
   | 'resigned'
   | 'insufficient'
   | 'agreed'
+  | 'repetition'
   | 'timevsinsufficient';

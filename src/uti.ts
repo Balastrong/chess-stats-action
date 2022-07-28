@@ -108,16 +108,22 @@ const boldifyPlayer = (test: string, player: string): string =>
   test === player ? `**${test}**` : test;
 
 const formatResult = (result: Result): string => {
-  const color =
+  const icon =
     iswitch<Result, string>(
       result,
-      ['win', () => 'green'],
-      [['timeout', 'checkmated', 'resigned'], () => 'red'],
+      ['win', () => '🥇'],
+      [['timeout', 'checkmated', 'resigned'], () => '❌'],
       [
-        ['stalemate', 'insufficient', 'agreed', 'timevsinsufficient'],
-        () => 'gray'
+        [
+          'stalemate',
+          'insufficient',
+          'agreed',
+          'repetition',
+          'timevsinsufficient'
+        ],
+        () => '⏸️'
       ]
-    ) || 'black';
+    ) || '';
 
-  return `<span style="color: ${color}">${result}</span>`;
+  return `${result} ${icon}`;
 };
