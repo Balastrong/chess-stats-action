@@ -1,4 +1,4 @@
-import { getInput, setFailed, setOutput } from '@actions/core';
+import { debug, getInput, setFailed, setOutput } from '@actions/core';
 import * as fs from 'fs';
 import {
   commitFile,
@@ -25,6 +25,8 @@ async function run(): Promise<void> {
     setFailed('No games found!');
   }
 
+  console.log(games.length + ' games found! - log');
+  debug(games.length + ' games found! - debug');
   setOutput('response', games.length + ' games found!');
 
   const gamesString = formatTable(games, CHESS_USERNAME, SHOW_DATE, SHOW_FEN);

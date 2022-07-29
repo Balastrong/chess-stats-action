@@ -25,6 +25,7 @@ const getChessComGames = (archive) => __awaiter(void 0, void 0, void 0, function
     const { data } = yield axios_1.default.get(archive);
     return data.games.map((game) => ({
         url: game.url,
+        fen: game.fen,
         white: {
             rating: game.white.rating,
             result: game.white.result,
@@ -87,7 +88,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
+exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_FEN = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
 const core_1 = __nccwpck_require__(2186);
 const fs = __importStar(__nccwpck_require__(5747));
 const uti_1 = __nccwpck_require__(4791);
@@ -95,8 +96,9 @@ const uti_1 = __nccwpck_require__(4791);
 exports.CHESS_USERNAME = (0, core_1.getInput)('CHESS_USERNAME');
 exports.GAMES_SIZE = parseInt((0, core_1.getInput)('GAMES_SIZE')) || 10;
 exports.SHOW_DATE = (0, core_1.getInput)('SHOW_DATE') === 'true';
+exports.SHOW_FEN = (0, core_1.getInput)('SHOW_FEN') === 'true';
 exports.COMMIT_MSG = (0, core_1.getInput)('COMMIT_MSG');
-exports.IS_DEBUG = (0, core_1.getInput)('DEBUG') === 'true';
+exports.IS_DEBUG = (0, core_1.getInput)('IS_DEBUG') === 'true';
 exports.FILE_NAME = (0, core_1.getInput)('FILE_NAME');
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
@@ -105,8 +107,10 @@ function run() {
         if (games.length === 0) {
             (0, core_1.setFailed)('No games found!');
         }
+        console.log(games.length + ' games found! - log');
+        (0, core_1.debug)(games.length + ' games found! - debug');
         (0, core_1.setOutput)('response', games.length + ' games found!');
-        const gamesString = (0, uti_1.formatTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE);
+        const gamesString = (0, uti_1.formatTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN);
         // Write the games to the README.md file
         const readmeContent = fs.readFileSync('./' + exports.FILE_NAME, 'utf-8');
         const startIndex = readmeContent.indexOf(uti_1.START_TOKEN);
@@ -136,6 +140,7 @@ function run() {
             }
         }
         (0, core_1.setOutput)('response', 'Successfully updated the README file!');
+        return;
     });
 }
 run();
@@ -214,8 +219,10 @@ const exec = (cmd, args = []) => new Promise((resolve, reject) => {
     });
     app.on('error', reject);
 });
-const formatTable = (games, player, showDate) => {
-    const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆  |${showDate ? ' Date 📅  |' : ''}\n|:---:|:---:|:---:|${showDate ? ':---:|' : ''}\n`;
+const formatTable = (games, player, showDate, showFen) => {
+    const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆 |${showDate ? ' Date 📅 |' : ''}${showFen ? ' Position 🗺️ |' : ''}`;
+    const extraColumnsSize = [showDate, showFen].filter(Boolean).length;
+    const tableSeparator = '|' + Array.from({ length: 3 + extraColumnsSize }, () => ':---:|').join('');
     const lowerCasePlayer = player.toLowerCase();
     const gameRows = games
         .map(game => {
@@ -230,19 +237,28 @@ const formatTable = (games, player, showDate) => {
             const date = new Date(game.end_time * 1000);
             data.push(`${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`);
         }
+        if (showFen) {
+            data.push(`<a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=${game.fen}">Link</a>`);
+        }
         return `| ${data.join(' | ')} |`;
     })
         .join('\n');
-    return `${tableHeader}${gameRows}\n`;
+    return `${tableHeader}\n${tableSeparator}\n${gameRows}\n`;
 };
 exports.formatTable = formatTable;
 const boldifyPlayer = (test, player) => test === player ? `**${test}**` : test;
 const formatResult = (result) => {
-    const color = (0, iswitch_1.iswitch)(result, ['win', () => 'green'], [['timeout', 'checkmated', 'resigned'], () => 'red'], [
-        ['stalemate', 'insufficient', 'agreed', 'timevsinsufficient'],
-        () => 'gray'
-    ]) || 'black';
-    return `<span style="color: ${color}">${result}</span>`;
+    const icon = (0, iswitch_1.iswitch)(result, ['win', () => '🥇'], [['timeout', 'checkmated', 'resigned'], () => '❌'], [
+        [
+            'stalemate',
+            'insufficient',
+            'agreed',
+            'repetition',
+            'timevsinsufficient'
+        ],
+        () => '⏸️'
+    ]) || '';
+    return `${result} ${icon}`;
 };
 
 
