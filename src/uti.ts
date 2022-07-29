@@ -1,3 +1,4 @@
+import { setFailed } from '@actions/core';
 import { spawn } from 'child_process';
 import { iswitch } from 'iswitch';
 import { getChessComArchives, getChessComGames } from './api';
@@ -137,4 +138,9 @@ const formatResult = (result: Result): string => {
     ) || '';
 
   return `${result} ${icon}`;
+};
+
+export const setFailure = (error: string) => {
+  console.error(error);
+  setFailed(error);
 };

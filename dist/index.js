@@ -105,21 +105,19 @@ function run() {
         // Get the games from chess.com
         const games = yield (0, uti_1.getGames)(exports.CHESS_USERNAME, exports.GAMES_SIZE);
         if (games.length === 0) {
-            (0, core_1.setFailed)('No games found!');
+            (0, uti_1.setFailure)('No games found!');
         }
-        console.log(games.length + ' games found! - log');
-        (0, core_1.debug)(games.length + ' games found! - debug');
-        (0, core_1.setOutput)('response', games.length + ' games found!');
+        console.log(games.length + ' games found!');
         const gamesString = (0, uti_1.formatTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN);
         // Write the games to the README.md file
         const readmeContent = fs.readFileSync('./' + exports.FILE_NAME, 'utf-8');
         const startIndex = readmeContent.indexOf(uti_1.START_TOKEN);
         if (startIndex === -1) {
-            (0, core_1.setFailed)(`Couldn't find the START_TOKEN ${uti_1.START_TOKEN} - Exiting!`);
+            (0, uti_1.setFailure)(`Couldn't find the START_TOKEN ${uti_1.START_TOKEN} - Exiting!`);
         }
         const endIndex = readmeContent.indexOf(uti_1.END_TOKEN);
         if (endIndex === -1) {
-            (0, core_1.setFailed)(`Couldn't find the END_TOKEN ${uti_1.END_TOKEN} - Exiting!`);
+            (0, uti_1.setFailure)(`Couldn't find the END_TOKEN ${uti_1.END_TOKEN} - Exiting!`);
         }
         const oldPart = readmeContent.slice(startIndex, endIndex);
         const readmeSafeParts = readmeContent.split(oldPart);
@@ -132,14 +130,14 @@ function run() {
             }
             catch (err) {
                 if (err instanceof Error) {
-                    return (0, core_1.setFailed)(err);
+                    return (0, uti_1.setFailure)(err.message);
                 }
                 else {
-                    return (0, core_1.setFailed)("Couldn't commit the file");
+                    return (0, uti_1.setFailure)("Couldn't commit the file");
                 }
             }
         }
-        (0, core_1.setOutput)('response', 'Successfully updated the README file!');
+        console.log('Successfully updated the README file!');
         return;
     });
 }
@@ -163,7 +161,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.formatTable = exports.commitFile = exports.getGames = exports.INFO_LINE = exports.END_TOKEN = exports.START_TOKEN = void 0;
+exports.setFailure = exports.formatTable = exports.commitFile = exports.getGames = exports.INFO_LINE = exports.END_TOKEN = exports.START_TOKEN = void 0;
+const core_1 = __nccwpck_require__(2186);
 const child_process_1 = __nccwpck_require__(3129);
 const iswitch_1 = __nccwpck_require__(8476);
 const api_1 = __nccwpck_require__(8947);
@@ -260,6 +259,11 @@ const formatResult = (result) => {
     ]) || '';
     return `${result} ${icon}`;
 };
+const setFailure = (error) => {
+    console.error(error);
+    (0, core_1.setFailed)(error);
+};
+exports.setFailure = setFailure;
 
 
 /***/ }),

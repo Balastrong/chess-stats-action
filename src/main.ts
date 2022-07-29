@@ -1,4 +1,4 @@
-import { debug, getInput, setFailed, setOutput } from '@actions/core';
+import { getInput } from '@actions/core';
 import * as fs from 'fs';
 import {
   commitFile,
@@ -6,6 +6,7 @@ import {
   formatTable,
   getGames,
   INFO_LINE,
+  setFailure,
   START_TOKEN
 } from './uti';
 
@@ -22,12 +23,10 @@ async function run(): Promise<void> {
   // Get the games from chess.com
   const games = await getGames(CHESS_USERNAME, GAMES_SIZE);
   if (games.length === 0) {
-    setFailed('No games found!');
+    setFailure('No games found!');
   }
 
-  console.log(games.length + ' games found! - log');
-  debug(games.length + ' games found! - debug');
-  setOutput('response', games.length + ' games found!');
+  console.log(games.length + ' games found!');
 
   const gamesString = formatTable(games, CHESS_USERNAME, SHOW_DATE, SHOW_FEN);
 
@@ -36,12 +35,12 @@ async function run(): Promise<void> {
 
   const startIndex = readmeContent.indexOf(START_TOKEN);
   if (startIndex === -1) {
-    setFailed(`Couldn't find the START_TOKEN ${START_TOKEN} - Exiting!`);
+    setFailure(`Couldn't find the START_TOKEN ${START_TOKEN} - Exiting!`);
   }
 
   const endIndex = readmeContent.indexOf(END_TOKEN);
   if (endIndex === -1) {
-    setFailed(`Couldn't find the END_TOKEN ${END_TOKEN} - Exiting!`);
+    setFailure(`Couldn't find the END_TOKEN ${END_TOKEN} - Exiting!`);
   }
 
   const oldPart = readmeContent.slice(startIndex, endIndex);
@@ -57,14 +56,14 @@ async function run(): Promise<void> {
       await commitFile();
     } catch (err) {
       if (err instanceof Error) {
-        return setFailed(err);
+        return setFailure(err.message);
       } else {
-        return setFailed("Couldn't commit the file");
+        return setFailure("Couldn't commit the file");
       }
     }
   }
 
-  setOutput('response', 'Successfully updated the README file!');
+  console.log('Successfully updated the README file!');
   return;
 }
 
