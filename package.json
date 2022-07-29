@@ -13,7 +13,8 @@
     "test": "jest",
     "test-rebuild": "npm run build && npm run test",
     "all": "npm run build && npm run format && npm run lint && npm run package && npm test",
-    "debug": "INPUT_IS_DEBUG='true' INPUT_FILE_NAME='README-DEMO.md' INPUT_CHESS_USERNAME='hikaru' INPUT_SHOW_DATE='true' npx ts-node ./src/main.ts"
+    "debug": "INPUT_IS_DEBUG='true' INPUT_FILE_NAME='README-DEMO.md' INPUT_CHESS_USERNAME='hikaru' INPUT_SHOW_DATE='true' npx ts-node ./src/main.ts",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
     "eslint": "^8",
     "eslint-plugin-github": "^4.3.2",
     "eslint-plugin-jest": "^25.3.2",
+    "husky": "^8.0.1",
     "jest": "^27.2.5",
     "js-yaml": "^4.1.0",
     "prettier": "2.5.1",
