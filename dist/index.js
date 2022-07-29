@@ -102,43 +102,51 @@ exports.IS_DEBUG = (0, core_1.getInput)('IS_DEBUG') === 'true';
 exports.FILE_NAME = (0, core_1.getInput)('FILE_NAME');
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
-        // Get the games from chess.com
-        const games = yield (0, uti_1.getGames)(exports.CHESS_USERNAME, exports.GAMES_SIZE);
-        if (games.length === 0) {
-            (0, uti_1.setFailure)('No games found!');
-        }
-        console.log(games.length + ' games found!');
-        const gamesString = (0, uti_1.formatTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN);
-        // Write the games to the README.md file
-        const readmeContent = fs.readFileSync('./' + exports.FILE_NAME, 'utf-8');
-        const startIndex = readmeContent.indexOf(uti_1.START_TOKEN);
-        if (startIndex === -1) {
-            (0, uti_1.setFailure)(`Couldn't find the START_TOKEN ${uti_1.START_TOKEN} - Exiting!`);
-        }
-        const endIndex = readmeContent.indexOf(uti_1.END_TOKEN);
-        if (endIndex === -1) {
-            (0, uti_1.setFailure)(`Couldn't find the END_TOKEN ${uti_1.END_TOKEN} - Exiting!`);
-        }
-        const oldPart = readmeContent.slice(startIndex, endIndex);
-        const readmeSafeParts = readmeContent.split(oldPart);
-        const newReadme = `${readmeSafeParts[0]}${uti_1.START_TOKEN}\n${uti_1.INFO_LINE}\n${gamesString}\n${readmeSafeParts[1]}`;
-        // Update README
-        fs.writeFileSync('./' + exports.FILE_NAME, newReadme);
-        if (!exports.IS_DEBUG) {
-            try {
-                yield (0, uti_1.commitFile)();
+        try {
+            // Get the games from chess.com
+            const games = yield (0, uti_1.getGames)(exports.CHESS_USERNAME, exports.GAMES_SIZE);
+            if (games.length === 0) {
+                throw new Error('No games found!');
             }
-            catch (err) {
-                if (err instanceof Error) {
-                    return (0, uti_1.setFailure)(err.message);
+            console.log(games.length + ' games found!');
+            const gamesString = (0, uti_1.formatTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN);
+            // Write the games to the README.md file
+            const readmeContent = fs.readFileSync('./' + exports.FILE_NAME, 'utf-8');
+            const startIndex = readmeContent.indexOf(uti_1.START_TOKEN);
+            if (startIndex === -1) {
+                throw new Error(`Couldn't find the START_TOKEN ${uti_1.START_TOKEN} - Exiting!`);
+            }
+            const endIndex = readmeContent.indexOf(uti_1.END_TOKEN);
+            if (endIndex === -1) {
+                throw new Error(`Couldn't find the END_TOKEN ${uti_1.END_TOKEN} - Exiting!`);
+            }
+            const oldPart = readmeContent.slice(startIndex, endIndex);
+            const readmeSafeParts = readmeContent.split(oldPart);
+            const newReadme = `${readmeSafeParts[0]}${uti_1.START_TOKEN}\n${uti_1.INFO_LINE}\n${gamesString}\n${readmeSafeParts[1]}`;
+            // Update README
+            fs.writeFileSync('./' + exports.FILE_NAME, newReadme);
+            if (!exports.IS_DEBUG) {
+                try {
+                    yield (0, uti_1.commitFile)();
                 }
-                else {
-                    return (0, uti_1.setFailure)("Couldn't commit the file");
+                catch (err) {
+                    if (err instanceof Error) {
+                        throw err;
+                    }
+                    else {
+                        throw new Error("Couldn't commit the file");
+                    }
                 }
             }
+            console.log('Successfully updated the README file!');
         }
-        console.log('Successfully updated the README file!');
-        return;
+        catch (error) {
+            const errorMessage = error instanceof Error
+                ? error.message
+                : 'The action failed with an Unknown error';
+            console.error(errorMessage);
+            (0, uti_1.setFailure)(errorMessage);
+        }
     });
 }
 run();
