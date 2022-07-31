@@ -3,7 +3,7 @@ import { spawn } from 'child_process';
 import { iswitch } from 'iswitch';
 import { getChessComArchives, getChessComGames } from './api';
 import { COMMIT_MSG, FILE_NAME } from './main';
-import { Game, Result } from './types';
+import { Game, Result, Stats } from './types';
 
 // Internal consts
 export const START_TOKEN = '<!--START_SECTION:chessStats-->';
@@ -114,6 +114,26 @@ export const formatTable = (
     .join('\n');
 
   return `${tableHeader}\n${tableSeparator}\n${gameRows}\n`;
+};
+
+export const formatStatsTable = (stats: Stats): string => {
+  const tableHeader = `| Type | Rapid 🐢 | Blitz 🐇 | Bullet ⚡ |`;
+  const tableSeparator =
+    '|' + Array.from({ length: 4 }, () => ':---:|').join('');
+  const lastRatings = [
+    stats.chess_rapid.last.rating,
+    stats.chess_blitz.last.rating,
+    stats.chess_bullet.last.rating
+  ];
+  const bestRatings = [
+    stats.chess_rapid.best.rating,
+    stats.chess_blitz.best.rating,
+    stats.chess_bullet.best.rating
+  ];
+  const lastRatingRow = `| Current | ${lastRatings.join(' | ')} |`;
+  const bestRatingRow = `| Best | ${bestRatings.join(' | ')} |`;
+
+  return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}`;
 };
 
 const boldifyPlayer = (test: string, player: string): string =>

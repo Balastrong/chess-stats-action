@@ -1,8 +1,11 @@
 import { getInput } from '@actions/core';
 import * as fs from 'fs';
+import { getStats } from './api';
+import { Stats } from './types';
 import {
   commitFile,
   END_TOKEN,
+  formatStatsTable,
   formatTable,
   getGames,
   INFO_LINE,
@@ -18,6 +21,7 @@ export const SHOW_FEN = getInput('SHOW_FEN') === 'true';
 export const COMMIT_MSG = getInput('COMMIT_MSG');
 export const IS_DEBUG = getInput('IS_DEBUG') === 'true';
 export const FILE_NAME = getInput('FILE_NAME');
+export const SHOW_STATS = getInput('SHOW_STATS') === 'true';
 
 async function run(): Promise<void> {
   try {
@@ -26,10 +30,15 @@ async function run(): Promise<void> {
     if (games.length === 0) {
       throw new Error('No games found!');
     }
-
+    const stats: Stats = await getStats(CHESS_USERNAME);
     console.log(games.length + ' games found!');
 
-    const gamesString = formatTable(games, CHESS_USERNAME, SHOW_DATE, SHOW_FEN);
+    const reportString = `${formatTable(
+      games,
+      CHESS_USERNAME,
+      SHOW_DATE,
+      SHOW_FEN
+    )}\n${SHOW_STATS ? formatStatsTable(stats) : ''}`;
 
     // Write the games to the README.md file
     const readmeContent = fs.readFileSync('./' + FILE_NAME, 'utf-8');
@@ -50,7 +59,7 @@ async function run(): Promise<void> {
 
     const readmeSafeParts = readmeContent.split(oldPart);
 
-    const newReadme = `${readmeSafeParts[0]}${START_TOKEN}\n${INFO_LINE}\n${gamesString}\n${readmeSafeParts[1]}`;
+    const newReadme = `${readmeSafeParts[0]}${START_TOKEN}\n${INFO_LINE}\n${reportString}\n${readmeSafeParts[1]}`;
 
     // Update README
     fs.writeFileSync('./' + FILE_NAME, newReadme);

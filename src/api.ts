@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Game } from './types';
+import { Game, Stats } from './types';
 
 export const getChessComGames = async (archive: string): Promise<Game[]> => {
   const { data } = await axios.get<{ games: Game[] }>(archive);
@@ -29,4 +29,11 @@ export const getChessComArchives = async (
   );
 
   return data.archives.reverse();
+};
+
+export const getStats = async (username: string): Promise<Stats> => {
+  const { data } = await axios.get<Stats>(
+    `https://api.chess.com/pub/player/${username}/stats/`
+  );
+  return data;
 };
