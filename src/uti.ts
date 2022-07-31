@@ -3,7 +3,7 @@ import { spawn } from 'child_process';
 import { iswitch } from 'iswitch';
 import { getChessComArchives, getChessComGames } from './api';
 import { COMMIT_MSG, FILE_NAME } from './main';
-import { Game, Result } from './types';
+import { Game, Result, Stats } from './types';
 
 // Internal consts
 export const START_TOKEN = '<!--START_SECTION:chessStats-->';
@@ -115,7 +115,18 @@ export const formatTable = (
 
   return `${tableHeader}\n${tableSeparator}\n${gameRows}\n`;
 };
-
+export const formatStatsTable = (stats: Stats): string => {
+  const tableHeader = `| Rapid | Blitz | Bullet |`;
+  const tableSeparator =
+    '|' + Array.from({ length: 3 }, () => ':---:|').join('');
+  const statsArr = [
+    stats.chess_rapid.last.rating,
+    stats.chess_blitz.last.rating,
+    stats.chess_bullet.last.rating
+  ];
+  const statsRows = `| ${statsArr.join(' | ')} |`;
+  return `${tableHeader}\n${tableSeparator}\n${statsRows}`;
+};
 const boldifyPlayer = (test: string, player: string): string =>
   test === player ? `**${test}**` : test;
 
