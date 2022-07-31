@@ -7,16 +7,16 @@ This file can be your README.md that gets automatically updated.
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ |
 |:---:|:---:|:---:|:---:|:---:|
-| Mykola-Bortnyk | **Hikaru** | win 🥇 | 28/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2k5/2p5/3p4/3Pr2p/3R3P/n3n1N1/K7/8 w - -">Link</a> |
-| **Hikaru** | Mykola-Bortnyk | win 🥇 | 28/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4k3/4nR2/5KP1/8/8/8/8 b - -">Link</a> |
-| Mykola-Bortnyk | **Hikaru** | win 🥇 | 28/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2k5/8/2p5/1pP5/1P2b3/2r1p3/1R6/3K4 w - -">Link</a> |
-| **Hikaru** | Mykola-Bortnyk | repetition ⏸️ | 28/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=R4n2/6pk/4p2p/1p5P/3P1PKQ/3q3R/6P1/7r b - -">Link</a> |
-| NikoTheodorou | **Hikaru** | win 🥇 | 27/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r4rk1/5pb1/1p2qnn1/2p1pR2/3pP1p1/BP1b2P1/4Q1BP/4NRK1 w - -">Link</a> |
-| **Hikaru** | NikoTheodorou | win 🥇 | 27/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/5R2/1kP5/8/8/8/5KB1/8 b - -">Link</a> |
-| NikoTheodorou | **Hikaru** | repetition ⏸️ | 27/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7R/4k3/p3Pp2/4nB2/2rp2P1/8/P7/5K2 w - -">Link</a> |
-| smallxhafa | **Hikaru** | repetition ⏸️ | 27/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4rrk1/pp4pp/6q1/3p1p2/PQ1P4/5P1P/1P3P2/R3RN1K b - -">Link</a> |
-| Knukleks | **Hikaru** | win 🥇 | 27/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r3k1/6p1/1R5p/pB2pp2/P7/3KP1P1/8/3q4 w - -">Link</a> |
-| blyp | **Hikaru** | win 🥇 | 27/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5p2/2k1p3/4P2p/pBp2P1P/P2b4/1p1Kp3/8 w - -">Link</a> |
+| **Hikaru** | mauricioflores | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/4K3/7k/8/2R5/8/8 b - -">Link</a> |
+| mauricioflores | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/p5k1/2P5/3P2KR/3nr2P/P4r2/8/2B5 w - -">Link</a> |
+| **Hikaru** | mauricioflores | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2k5/p4K2/4N2p/pn1PP2P/6R1/8/8 b - -">Link</a> |
+| mauricioflores | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r6k/1pp1q2p/3p1rb1/p1nPp1NQ/1nP1p1BP/2N5/PP3P2/1K1R2R1 w - -">Link</a> |
+| **Hikaru** | Jospem | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5k2/1R3n2/3p4/2p1pPp1/2P1P1N1/3P4/8/3K4 b - -">Link</a> |
+| Jospem | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r2r3/2q1bbpk/5p2/4p1pP/p2pPnP1/B2P1QN1/2P2PK1/R2B3R w - -">Link</a> |
+| **Hikaru** | Jospem | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3k3/3b3p/1P1B2p1/4N3/2B5/6P1/5K1P/8 b - -">Link</a> |
+| Jospem | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6p1/6p1/8/2k4P/4p3/1bp1Kp2/5R2 w - -">Link</a> |
+| **Hikaru** | Jospem | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5Q2/6pk/2P2n2/7p/3K2bP/6P1/8 b - -">Link</a> |
+| Jospem | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/2k2np1/p1p1p2p/4P3/1P1Pr3/6K1/3R4 w - -">Link</a> |
 
 <!--END_SECTION:chessStats-->
 

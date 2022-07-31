@@ -2,7 +2,7 @@ import { setFailed } from '@actions/core';
 import { spawn } from 'child_process';
 import { iswitch } from 'iswitch';
 import { getChessComArchives, getChessComGames } from './api';
-import { COMMIT_MSG } from './main';
+import { COMMIT_MSG, FILE_NAME } from './main';
 import { Game, Result } from './types';
 
 // Internal consts
@@ -45,7 +45,7 @@ export const commitFile = async () => {
     '41898282+github-actions[bot]@users.noreply.github.com'
   ]);
   await exec('git', ['config', '--global', 'user.name', 'chess-stats-bot']);
-  await exec('git', ['add', 'README.md']);
+  await exec('git', ['add', FILE_NAME]);
   await exec('git', ['commit', '-m', COMMIT_MSG]);
   await exec('git', ['push']);
 };

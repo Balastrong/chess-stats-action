@@ -206,7 +206,7 @@ const commitFile = () => __awaiter(void 0, void 0, void 0, function* () {
         '41898282+github-actions[bot]@users.noreply.github.com'
     ]);
     yield exec('git', ['config', '--global', 'user.name', 'chess-stats-bot']);
-    yield exec('git', ['add', 'README.md']);
+    yield exec('git', ['add', main_1.FILE_NAME]);
     yield exec('git', ['commit', '-m', main_1.COMMIT_MSG]);
     yield exec('git', ['push']);
 });
