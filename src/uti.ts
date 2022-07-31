@@ -115,6 +115,7 @@ export const formatTable = (
 
   return `${tableHeader}\n${tableSeparator}\n${gameRows}\n`;
 };
+
 export const formatStatsTable = (stats: Stats): string => {
   const tableHeader = `| Type | Rapid 🐢 | Blitz 🐇 | Bullet ⚡ |`;
   const tableSeparator =
@@ -134,6 +135,7 @@ export const formatStatsTable = (stats: Stats): string => {
 
   return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}`;
 };
+
 const boldifyPlayer = (test: string, player: string): string =>
   test === player ? `**${test}**` : test;
 
