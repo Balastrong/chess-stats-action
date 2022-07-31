@@ -38,7 +38,7 @@ async function run(): Promise<void> {
       CHESS_USERNAME,
       SHOW_DATE,
       SHOW_FEN
-    )}\n${SHOW_STATS && formatStatsTable(stats)}`;
+      )}\n${SHOW_STATS ? formatStatsTable(stats) : ''}`;
 
     // Write the games to the README.md file
     const readmeContent = fs.readFileSync('./' + FILE_NAME, 'utf-8');

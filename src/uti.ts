@@ -116,16 +116,23 @@ export const formatTable = (
   return `${tableHeader}\n${tableSeparator}\n${gameRows}\n`;
 };
 export const formatStatsTable = (stats: Stats): string => {
-  const tableHeader = `| Rapid | Blitz | Bullet |`;
+  const tableHeader = `| Type | Rapid 🐢 | Blitz 🐇 | Bullet ⚡ |`;
   const tableSeparator =
-    '|' + Array.from({ length: 3 }, () => ':---:|').join('');
-  const statsArr = [
+    '|' + Array.from({ length: 4 }, () => ':---:|').join('');
+  const lastRatings = [
     stats.chess_rapid.last.rating,
     stats.chess_blitz.last.rating,
     stats.chess_bullet.last.rating
   ];
-  const statsRows = `| ${statsArr.join(' | ')} |`;
-  return `${tableHeader}\n${tableSeparator}\n${statsRows}`;
+  const bestRatings = [
+    stats.chess_rapid.best.rating,
+    stats.chess_blitz.best.rating,
+    stats.chess_bullet.best.rating
+  ];
+  const lastRatingRow = `| Current | ${lastRatings.join(' | ')} |`;
+  const bestRatingRow = `| Best | ${bestRatings.join(' | ')} |`;
+
+  return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}`;
 };
 const boldifyPlayer = (test: string, player: string): string =>
   test === player ? `**${test}**` : test;
