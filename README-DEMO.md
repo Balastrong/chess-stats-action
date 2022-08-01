@@ -18,10 +18,7 @@ This file can be your README.md that gets automatically updated.
 | fmshawnrl123 | **Hikaru** | resigned ❌ | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4rr1k/1Q2n1B1/1R6/P2R3q/4pP2/6Pp/5P1P/6K1 b - -">Link</a> |
 | **Hikaru** | fmshawnrl123 | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r1k2/1p3p1p/p3pN2/1b6/8/1BP4P/PP4P1/4RK2 w - -">Link</a> |
 
-| Type | Rapid 🐢 | Blitz 🐇 | Bullet ⚡ |
-|:---:|:---:|:---:|:---:|
-| Current | 2805 | 3205 | 3300 |
-| Best | 2927 | 3332 | 3570 |
+
 <!--END_SECTION:chessStats-->
 
 Existing content is kept.

@@ -58,10 +58,12 @@ There are a few configuration options you can use in your GitHub Action.
 |   SHOW_DATE    |              Toggle the Date column              |                true                 |    No    |
 |    SHOW_FEN    |            Toggle the Position column            |                true                 |    No    |
 |   FILE_NAME    |       Define a specific file in your repo        |              README.md              |    No    |
-|   SHOW_STATS   |               Show stats                         |                true                 |    No    |
+|   SHOW_STATS   |                    Show stats                    |                true                 |    No    |
 
 ## Contributing
 
 There are many possible ways to expand the functionalities or improve the current logic. Feel free to have a look at the open issues or create a new one youself if something is missing.
 
 PRs are also welcome!
+
+More details on how to setup and contribute in [CONTRIBUTING.md](CONTRIBUTING.md)
