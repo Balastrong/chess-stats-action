@@ -9,7 +9,7 @@ inputs:
     required: true
   COMMIT_MSG:
     description: "Commit message used while committing to the repo"
-    default: "Update README with your chess games"
+    default: "♟️ Updated README with your chess games"
     required: false
   GAMES_SIZE:
     description: "How many games to load"
@@ -27,7 +27,10 @@ inputs:
     description: "Define a specific file in your repo"
     default: "README.md"
     required: false
-    
+  SHOW_STATS:
+    description: "Toggle the stats table"
+    default: "true"
+    required: false
 runs:
   using: 'node16'
   main: 'dist/index.js'

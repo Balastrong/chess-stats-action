@@ -19,7 +19,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.getChessComArchives = exports.getChessComGames = void 0;
+exports.getStats = exports.getChessComArchives = exports.getChessComGames = void 0;
 const axios_1 = __importDefault(__nccwpck_require__(6545));
 const getChessComGames = (archive) => __awaiter(void 0, void 0, void 0, function* () {
     const { data } = yield axios_1.default.get(archive);
@@ -46,6 +46,11 @@ const getChessComArchives = (username) => __awaiter(void 0, void 0, void 0, func
     return data.archives.reverse();
 });
 exports.getChessComArchives = getChessComArchives;
+const getStats = (username) => __awaiter(void 0, void 0, void 0, function* () {
+    const { data } = yield axios_1.default.get(`https://api.chess.com/pub/player/${username}/stats/`);
+    return data;
+});
+exports.getStats = getStats;
 
 
 /***/ }),
@@ -88,9 +93,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_FEN = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
+exports.SHOW_STATS = exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_FEN = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
 const core_1 = __nccwpck_require__(2186);
 const fs = __importStar(__nccwpck_require__(5747));
+const api_1 = __nccwpck_require__(8947);
 const uti_1 = __nccwpck_require__(4791);
 // Public parameters
 exports.CHESS_USERNAME = (0, core_1.getInput)('CHESS_USERNAME');
@@ -100,16 +106,21 @@ exports.SHOW_FEN = (0, core_1.getInput)('SHOW_FEN') === 'true';
 exports.COMMIT_MSG = (0, core_1.getInput)('COMMIT_MSG');
 exports.IS_DEBUG = (0, core_1.getInput)('IS_DEBUG') === 'true';
 exports.FILE_NAME = (0, core_1.getInput)('FILE_NAME');
+exports.SHOW_STATS = (0, core_1.getInput)('SHOW_STATS') === 'true';
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            // Get the games from chess.com
+            const content = [];
+            if (exports.SHOW_STATS) {
+                const stats = yield (0, api_1.getStats)(exports.CHESS_USERNAME);
+                content.push((0, uti_1.formatStatsTable)(stats));
+            }
             const games = yield (0, uti_1.getGames)(exports.CHESS_USERNAME, exports.GAMES_SIZE);
             if (games.length === 0) {
                 throw new Error('No games found!');
             }
+            content.push((0, uti_1.formatGamesTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN));
             console.log(games.length + ' games found!');
-            const gamesString = (0, uti_1.formatTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN);
             // Write the games to the README.md file
             const readmeContent = fs.readFileSync('./' + exports.FILE_NAME, 'utf-8');
             const startIndex = readmeContent.indexOf(uti_1.START_TOKEN);
@@ -122,8 +133,7 @@ function run() {
             }
             const oldPart = readmeContent.slice(startIndex, endIndex);
             const readmeSafeParts = readmeContent.split(oldPart);
-            const newReadme = `${readmeSafeParts[0]}${uti_1.START_TOKEN}\n${uti_1.INFO_LINE}\n${gamesString}\n${readmeSafeParts[1]}`;
-            // Update README
+            const newReadme = `${readmeSafeParts[0]}${uti_1.START_TOKEN}\n${uti_1.INFO_LINE}\n${content.join('\n')}\n${readmeSafeParts[1]}`;
             fs.writeFileSync('./' + exports.FILE_NAME, newReadme);
             if (!exports.IS_DEBUG) {
                 try {
@@ -144,7 +154,6 @@ function run() {
             const errorMessage = error instanceof Error
                 ? error.message
                 : 'The action failed with an Unknown error';
-            console.error(errorMessage);
             (0, uti_1.setFailure)(errorMessage);
         }
     });
@@ -169,7 +178,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.setFailure = exports.formatTable = exports.commitFile = exports.getGames = exports.INFO_LINE = exports.END_TOKEN = exports.START_TOKEN = void 0;
+exports.setFailure = exports.formatStatsTable = exports.formatGamesTable = exports.commitFile = exports.getGames = exports.INFO_LINE = exports.END_TOKEN = exports.START_TOKEN = void 0;
 const core_1 = __nccwpck_require__(2186);
 const child_process_1 = __nccwpck_require__(3129);
 const iswitch_1 = __nccwpck_require__(8476);
@@ -206,7 +215,7 @@ const commitFile = () => __awaiter(void 0, void 0, void 0, function* () {
         '41898282+github-actions[bot]@users.noreply.github.com'
     ]);
     yield exec('git', ['config', '--global', 'user.name', 'chess-stats-bot']);
-    yield exec('git', ['add', 'README.md']);
+    yield exec('git', ['add', main_1.FILE_NAME]);
     yield exec('git', ['commit', '-m', main_1.COMMIT_MSG]);
     yield exec('git', ['push']);
 });
@@ -226,7 +235,7 @@ const exec = (cmd, args = []) => new Promise((resolve, reject) => {
     });
     app.on('error', reject);
 });
-const formatTable = (games, player, showDate, showFen) => {
+const formatGamesTable = (games, player, showDate, showFen) => {
     const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆 |${showDate ? ' Date 📅 |' : ''}${showFen ? ' Position 🗺️ |' : ''}`;
     const extraColumnsSize = [showDate, showFen].filter(Boolean).length;
     const tableSeparator = '|' + Array.from({ length: 3 + extraColumnsSize }, () => ':---:|').join('');
@@ -252,7 +261,25 @@ const formatTable = (games, player, showDate, showFen) => {
         .join('\n');
     return `${tableHeader}\n${tableSeparator}\n${gameRows}\n`;
 };
-exports.formatTable = formatTable;
+exports.formatGamesTable = formatGamesTable;
+const formatStatsTable = (stats) => {
+    const tableHeader = `| Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |`;
+    const tableSeparator = '|' + Array.from({ length: 4 }, () => ':---:|').join('');
+    const lastRatings = [
+        stats.chess_rapid.last.rating,
+        stats.chess_blitz.last.rating,
+        stats.chess_bullet.last.rating
+    ];
+    const bestRatings = [
+        stats.chess_rapid.best.rating,
+        stats.chess_blitz.best.rating,
+        stats.chess_bullet.best.rating
+    ];
+    const lastRatingRow = `| Current | ${lastRatings.join(' | ')} |`;
+    const bestRatingRow = `| Best | ${bestRatings.join(' | ')} |`;
+    return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}\n`;
+};
+exports.formatStatsTable = formatStatsTable;
 const boldifyPlayer = (test, player) => test === player ? `**${test}**` : test;
 const formatResult = (result) => {
     const icon = (0, iswitch_1.iswitch)(result, ['win', () => '🥇'], [['timeout', 'checkmated', 'resigned'], () => '❌'], [

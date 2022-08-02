@@ -2,8 +2,8 @@ import { setFailed } from '@actions/core';
 import { spawn } from 'child_process';
 import { iswitch } from 'iswitch';
 import { getChessComArchives, getChessComGames } from './api';
-import { COMMIT_MSG } from './main';
-import { Game, Result } from './types';
+import { COMMIT_MSG, FILE_NAME } from './main';
+import { Game, Result, Stats } from './types';
 
 // Internal consts
 export const START_TOKEN = '<!--START_SECTION:chessStats-->';
@@ -45,7 +45,7 @@ export const commitFile = async () => {
     '41898282+github-actions[bot]@users.noreply.github.com'
   ]);
   await exec('git', ['config', '--global', 'user.name', 'chess-stats-bot']);
-  await exec('git', ['add', 'README.md']);
+  await exec('git', ['add', FILE_NAME]);
   await exec('git', ['commit', '-m', COMMIT_MSG]);
   await exec('git', ['push']);
 };
@@ -67,7 +67,7 @@ const exec = (cmd: string, args: string[] = []) =>
     app.on('error', reject);
   });
 
-export const formatTable = (
+export const formatGamesTable = (
   games: Game[],
   player: string,
   showDate: boolean,
@@ -114,6 +114,26 @@ export const formatTable = (
     .join('\n');
 
   return `${tableHeader}\n${tableSeparator}\n${gameRows}\n`;
+};
+
+export const formatStatsTable = (stats: Stats): string => {
+  const tableHeader = `| Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |`;
+  const tableSeparator =
+    '|' + Array.from({ length: 4 }, () => ':---:|').join('');
+  const lastRatings = [
+    stats.chess_rapid.last.rating,
+    stats.chess_blitz.last.rating,
+    stats.chess_bullet.last.rating
+  ];
+  const bestRatings = [
+    stats.chess_rapid.best.rating,
+    stats.chess_blitz.best.rating,
+    stats.chess_bullet.best.rating
+  ];
+  const lastRatingRow = `| Current | ${lastRatings.join(' | ')} |`;
+  const bestRatingRow = `| Best | ${bestRatings.join(' | ')} |`;
+
+  return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}\n`;
 };
 
 const boldifyPlayer = (test: string, player: string): string =>
