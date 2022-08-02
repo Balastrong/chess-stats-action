@@ -2,6 +2,11 @@
 
 Automatically add and keep up to date your latest games from [chess.com](https://www.chess.com/).
 
+|  Type   | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
+| :-----: | :------: | :------: | :-------: |
+| Current |   2805   |   3207   |   3300    |
+|  Best   |   2927   |   3332   |   3570    |
+
 |    White ⚪    |    Black ⚫    |   Result 🏆   |  Date 📅  |                                                          Position 🗺️                                                           |
 | :------------: | :------------: | :-----------: | :-------: | :----------------------------------------------------------------------------------------------------------------------------: |
 | Mykola-Bortnyk |   **Hikaru**   |    win 🥇     | 28/7/2022 |          <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2k5/2p5/3p4/3Pr2p/3R3P/n3n1N1/K7/8 w - -">Link</a>          |
@@ -28,7 +33,7 @@ Add these two placeholders somewhere in your `README.md`, they will get replaced
 Create a GitHub Action in your repository, you can call it `chess-stats-action.yml`.
 
 ```yaml
-name: Chess Stats Action
+name: Chess Games & Stats Action
 
 on:
   schedule:
@@ -50,15 +55,15 @@ jobs:
 
 There are a few configuration options you can use in your GitHub Action.
 
-|   Parameter    |                   Description                    |               Default               | Required |
-| :------------: | :----------------------------------------------: | :---------------------------------: | :------: |
-| CHESS_USERNAME |             Your chess.com username              |               hikaru                | **Yes**  |
-|   COMMIT_MSG   | Commit message used while committing to the repo | Update README with your chess games |    No    |
-|   GAMES_SIZE   |              How many games to load              |                 10                  |    No    |
-|   SHOW_DATE    |              Toggle the Date column              |                true                 |    No    |
-|    SHOW_FEN    |            Toggle the Position column            |                true                 |    No    |
-|   FILE_NAME    |       Define a specific file in your repo        |              README.md              |    No    |
-|   SHOW_STATS   |                    Show stats                    |                true                 |    No    |
+|   Parameter    |                   Description                    |                 Default                 | Required |
+| :------------: | :----------------------------------------------: | :-------------------------------------: | :------: |
+| CHESS_USERNAME |             Your chess.com username              |                 hikaru                  | **Yes**  |
+|   COMMIT_MSG   | Commit message used while committing to the repo | ♟️ Updated README with your chess games |    No    |
+|   GAMES_SIZE   |              How many games to load              |                   10                    |    No    |
+|   SHOW_DATE    |              Toggle the Date column              |                  true                   |    No    |
+|    SHOW_FEN    |            Toggle the Position column            |                  true                   |    No    |
+|   FILE_NAME    |       Define a specific file in your repo        |                README.md                |    No    |
+|   SHOW_STATS   |                    Show stats                    |                  true                   |    No    |
 
 ## Contributing
 

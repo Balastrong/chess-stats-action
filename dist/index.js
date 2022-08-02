@@ -110,14 +110,17 @@ exports.SHOW_STATS = (0, core_1.getInput)('SHOW_STATS') === 'true';
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            // Get the games from chess.com
+            const content = [];
+            if (exports.SHOW_STATS) {
+                const stats = yield (0, api_1.getStats)(exports.CHESS_USERNAME);
+                content.push((0, uti_1.formatStatsTable)(stats));
+            }
             const games = yield (0, uti_1.getGames)(exports.CHESS_USERNAME, exports.GAMES_SIZE);
             if (games.length === 0) {
                 throw new Error('No games found!');
             }
-            const stats = yield (0, api_1.getStats)(exports.CHESS_USERNAME);
+            content.push((0, uti_1.formatGamesTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN));
             console.log(games.length + ' games found!');
-            const reportString = `${(0, uti_1.formatTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN)}\n${exports.SHOW_STATS ? (0, uti_1.formatStatsTable)(stats) : ''}`;
             // Write the games to the README.md file
             const readmeContent = fs.readFileSync('./' + exports.FILE_NAME, 'utf-8');
             const startIndex = readmeContent.indexOf(uti_1.START_TOKEN);
@@ -130,8 +133,7 @@ function run() {
             }
             const oldPart = readmeContent.slice(startIndex, endIndex);
             const readmeSafeParts = readmeContent.split(oldPart);
-            const newReadme = `${readmeSafeParts[0]}${uti_1.START_TOKEN}\n${uti_1.INFO_LINE}\n${reportString}\n${readmeSafeParts[1]}`;
-            // Update README
+            const newReadme = `${readmeSafeParts[0]}${uti_1.START_TOKEN}\n${uti_1.INFO_LINE}\n${content.join('\n')}\n${readmeSafeParts[1]}`;
             fs.writeFileSync('./' + exports.FILE_NAME, newReadme);
             if (!exports.IS_DEBUG) {
                 try {
@@ -152,7 +154,6 @@ function run() {
             const errorMessage = error instanceof Error
                 ? error.message
                 : 'The action failed with an Unknown error';
-            console.error(errorMessage);
             (0, uti_1.setFailure)(errorMessage);
         }
     });
@@ -177,7 +178,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.setFailure = exports.formatStatsTable = exports.formatTable = exports.commitFile = exports.getGames = exports.INFO_LINE = exports.END_TOKEN = exports.START_TOKEN = void 0;
+exports.setFailure = exports.formatStatsTable = exports.formatGamesTable = exports.commitFile = exports.getGames = exports.INFO_LINE = exports.END_TOKEN = exports.START_TOKEN = void 0;
 const core_1 = __nccwpck_require__(2186);
 const child_process_1 = __nccwpck_require__(3129);
 const iswitch_1 = __nccwpck_require__(8476);
@@ -234,7 +235,7 @@ const exec = (cmd, args = []) => new Promise((resolve, reject) => {
     });
     app.on('error', reject);
 });
-const formatTable = (games, player, showDate, showFen) => {
+const formatGamesTable = (games, player, showDate, showFen) => {
     const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆 |${showDate ? ' Date 📅 |' : ''}${showFen ? ' Position 🗺️ |' : ''}`;
     const extraColumnsSize = [showDate, showFen].filter(Boolean).length;
     const tableSeparator = '|' + Array.from({ length: 3 + extraColumnsSize }, () => ':---:|').join('');
@@ -260,9 +261,9 @@ const formatTable = (games, player, showDate, showFen) => {
         .join('\n');
     return `${tableHeader}\n${tableSeparator}\n${gameRows}\n`;
 };
-exports.formatTable = formatTable;
+exports.formatGamesTable = formatGamesTable;
 const formatStatsTable = (stats) => {
-    const tableHeader = `| Type | Rapid 🐢 | Blitz 🐇 | Bullet ⚡ |`;
+    const tableHeader = `| Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |`;
     const tableSeparator = '|' + Array.from({ length: 4 }, () => ':---:|').join('');
     const lastRatings = [
         stats.chess_rapid.last.rating,
@@ -276,7 +277,7 @@ const formatStatsTable = (stats) => {
     ];
     const lastRatingRow = `| Current | ${lastRatings.join(' | ')} |`;
     const bestRatingRow = `| Best | ${bestRatings.join(' | ')} |`;
-    return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}`;
+    return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}\n`;
 };
 exports.formatStatsTable = formatStatsTable;
 const boldifyPlayer = (test, player) => test === player ? `**${test}**` : test;
