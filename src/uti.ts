@@ -71,13 +71,14 @@ export const formatGamesTable = (
   games: Game[],
   player: string,
   showDate: boolean,
-  showFen: boolean
+  showFen: boolean,
+  showTimeClass: boolean
 ): string => {
   const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆 |${
     showDate ? ' Date 📅 |' : ''
-  }${showFen ? ' Position 🗺️ |' : ''}`;
+  }${showFen ? ' Position 🗺️ |' : ''}${showTimeClass ? ' Type 🕕 |' : ''}`;
 
-  const extraColumnsSize = [showDate, showFen].filter(Boolean).length;
+  const extraColumnsSize = [showDate, showFen, showTimeClass].filter(Boolean).length;
   const tableSeparator =
     '|' + Array.from({ length: 3 + extraColumnsSize }, () => ':---:|').join('');
 
@@ -107,6 +108,11 @@ export const formatGamesTable = (
         data.push(
           `<a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=${game.fen}">Link</a>`
         );
+      }
+
+      if(showTimeClass){
+       const timeClass = game.time_class.charAt(0).toUpperCase() + game.time_class.slice(1);
+        data.push(`${timeClass}`)
       }
 
       return `| ${data.join(' | ')} |`;

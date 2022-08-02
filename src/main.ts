@@ -22,6 +22,7 @@ export const COMMIT_MSG = getInput('COMMIT_MSG');
 export const IS_DEBUG = getInput('IS_DEBUG') === 'true';
 export const FILE_NAME = getInput('FILE_NAME');
 export const SHOW_STATS = getInput('SHOW_STATS') === 'true';
+export const SHOW_TIME_CLASS = getInput('SHOW_TIME_CLASS') === 'true';
 
 async function run(): Promise<void> {
   try {
@@ -36,7 +37,7 @@ async function run(): Promise<void> {
     if (games.length === 0) {
       throw new Error('No games found!');
     }
-    content.push(formatGamesTable(games, CHESS_USERNAME, SHOW_DATE, SHOW_FEN));
+    content.push(formatGamesTable(games, CHESS_USERNAME, SHOW_DATE, SHOW_FEN, SHOW_TIME_CLASS));
 
     console.log(games.length + ' games found!');
 

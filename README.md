@@ -64,6 +64,7 @@ There are a few configuration options you can use in your GitHub Action.
 |    SHOW_FEN    |            Toggle the Position column            |                  true                   |    No    |
 |   FILE_NAME    |       Define a specific file in your repo        |                README.md                |    No    |
 |   SHOW_STATS   |                    Show stats                    |                  true                   |    No    |
+| SHOW_TIME_CLASS|         Toggle the game type column              |                  true                   |    No    |
 
 ## Contributing
 
