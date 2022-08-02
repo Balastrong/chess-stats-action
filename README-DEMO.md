@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2805 | 3207 | 3300 |
+| Current | 2805 | 3227 | 3300 |
 | Best | 2927 | 3332 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ |
 |:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | alexrustemov | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/Q7/5pk1/4p3/2p1P3/6R1/P3B1K1/1q6 b - -">Link</a> |
-| alexrustemov | **Hikaru** | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k4r1/6rp/p4q2/4p3/2P2P2/1Bp2RP1/P5KP/4R3 w - -">Link</a> |
-| **Hikaru** | Obito24 | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2b3k1/4q1p1/4P2p/1p3Q1P/1p1p1NK1/1P1P4/8/8 b - -">Link</a> |
-| Obito24 | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3R4/8/8/8/2p2p2/2kn1K2/8 w - -">Link</a> |
-| **Hikaru** | Obito24 | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6r1/p1bq1k2/2p2p1B/2p2P1Q/2Pp3P/1P1K4/P7/6R1 b - -">Link</a> |
-| Obito24 | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/6R1/P2k2p1/1r2p3/6KP/8 w - -">Link</a> |
-| **Hikaru** | Obito24 | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3kb1r/pp1b1ppq/3pR3/1B6/5PQp/2B5/PPP3PP/2KR4 b kq -">Link</a> |
-| Obito24 | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/R4pk1/6p1/3KP1Pp/5P2/3p2P1/p3r3/8 w - -">Link</a> |
-| **Hikaru** | Obito24 | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r4/3P2kp/1n1R2p1/p3N3/Pp6/1P4P1/7P/6K1 b - -">Link</a> |
-| Obito24 | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r2bk1/1q3n1p/3p4/3bp1p1/pP2Pp2/B4P1P/PN2Q1P1/K1R5 w - -">Link</a> |
+| **Hikaru** | alexrustemov | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3Q4/7k/8/1p4rp/1P2qp2/P2R2P1/5P2/5QK1 b - -">Link</a> |
+| alexrustemov | **Hikaru** | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2bq1rk1/6b1/2Q3pp/3pnp2/4p3/1N1PP1P1/5PBP/2R3K1 w - -">Link</a> |
+| **Hikaru** | alexrustemov | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6k1/P7/8/6PK/5B2/8/8 b - -">Link</a> |
+| alexrustemov | **Hikaru** | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=Rr4k1/1pp3b1/3pq1np/1P1N2p1/2P5/3PBrP1/6KP/R7 w - -">Link</a> |
+| **Hikaru** | alexrustemov | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=rnQ1kb1r/4pppp/5n2/qN1pN2b/8/1P2P3/P2P1PPP/R1B1K2R b KQkq -">Link</a> |
+| alexrustemov | **Hikaru** | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/2B3b1/3p3p/2p1p3/6P1/1p1PR3/4P1KP/r7 w - -">Link</a> |
+| **Hikaru** | Jospem | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/4p3/4P1K1/k7/5N2/8 b - -">Link</a> |
+| FairChess_on_YouTube | **Hikaru** | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/8/5pK1/2k2P2/6p1/4R2r w - -">Link</a> |
+| **Hikaru** | Konavets | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5pk1/8/1N6/1P3Kp1/2P3P1/R4P2/1n1r4 b - -">Link</a> |
+| Harsha_Bharathakoti | **Hikaru** | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5n1k/5Q1p/3R4/5p2/2B1p2P/4P1P1/5PK1/6qr w - -">Link</a> |
 
 <!--END_SECTION:chessStats-->
 
