@@ -2,6 +2,8 @@
 
 This file can be your README.md that gets automatically updated.
 
+The content genrated by the action starts here:
+
 <!--START_SECTION:chessStats-->
 <!-- Automatically generated with https://github.com/Balastrong/chess-stats-action -->
 
@@ -18,10 +20,6 @@ This file can be your README.md that gets automatically updated.
 | **Hikaru** | Obito24 | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r4/3P2kp/1n1R2p1/p3N3/Pp6/1P4P1/7P/6K1 b - -">Link</a> |
 | Obito24 | **Hikaru** | win 🥇 | 31/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r2bk1/1q3n1p/3p4/3bp1p1/pP2Pp2/B4P1P/PN2Q1P1/K1R5 w - -">Link</a> |
 
-| Type | Rapid 🐢 | Blitz 🐇 | Bullet ⚡ |
-|:---:|:---:|:---:|:---:|
-| Current | 2805 | 3207 | 3300 |
-| Best | 2927 | 3332 | 3570 |
 <!--END_SECTION:chessStats-->
 
-Existing content is kept.
+Existing content is kept, both before and after the generated content :)

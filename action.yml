@@ -9,7 +9,7 @@ inputs:
     required: true
   COMMIT_MSG:
     description: "Commit message used while committing to the repo"
-    default: "Update README with your chess games"
+    default: "♟️ Updated README with your chess games"
     required: false
   GAMES_SIZE:
     description: "How many games to load"

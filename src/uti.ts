@@ -67,7 +67,7 @@ const exec = (cmd: string, args: string[] = []) =>
     app.on('error', reject);
   });
 
-export const formatTable = (
+export const formatGamesTable = (
   games: Game[],
   player: string,
   showDate: boolean,
@@ -117,7 +117,7 @@ export const formatTable = (
 };
 
 export const formatStatsTable = (stats: Stats): string => {
-  const tableHeader = `| Type | Rapid 🐢 | Blitz 🐇 | Bullet ⚡ |`;
+  const tableHeader = `| Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |`;
   const tableSeparator =
     '|' + Array.from({ length: 4 }, () => ':---:|').join('');
   const lastRatings = [
@@ -133,7 +133,7 @@ export const formatStatsTable = (stats: Stats): string => {
   const lastRatingRow = `| Current | ${lastRatings.join(' | ')} |`;
   const bestRatingRow = `| Best | ${bestRatings.join(' | ')} |`;
 
-  return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}`;
+  return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}\n`;
 };
 
 const boldifyPlayer = (test: string, player: string): string =>
