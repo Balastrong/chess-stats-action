@@ -7,6 +7,11 @@ The content genrated by the action starts here:
 <!--START_SECTION:chessStats-->
 <!-- Automatically generated with https://github.com/Balastrong/chess-stats-action -->
 
+| Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
+|:---:|:---:|:---:|:---:|
+| Current | 2805 | 3207 | 3300 |
+| Best | 2927 | 3332 | 3570 |
+
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ |
 |:---:|:---:|:---:|:---:|:---:|
 | **Hikaru** | alexrustemov | win 🥇 | 2/8/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/Q7/5pk1/4p3/2p1P3/6R1/P3B1K1/1q6 b - -">Link</a> |
