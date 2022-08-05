@@ -37,7 +37,15 @@ async function run(): Promise<void> {
     if (games.length === 0) {
       throw new Error('No games found!');
     }
-    content.push(formatGamesTable(games, CHESS_USERNAME, SHOW_DATE, SHOW_FEN, SHOW_TIME_CLASS));
+    content.push(
+      formatGamesTable(
+        games,
+        CHESS_USERNAME,
+        SHOW_DATE,
+        SHOW_FEN,
+        SHOW_TIME_CLASS
+      )
+    );
 
     console.log(games.length + ' games found!');
 

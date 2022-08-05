@@ -93,7 +93,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.SHOW_STATS = exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_FEN = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
+exports.SHOW_TIME_CLASS = exports.SHOW_STATS = exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_FEN = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
 const core_1 = __nccwpck_require__(2186);
 const fs = __importStar(__nccwpck_require__(5747));
 const api_1 = __nccwpck_require__(8947);
@@ -107,6 +107,7 @@ exports.COMMIT_MSG = (0, core_1.getInput)('COMMIT_MSG');
 exports.IS_DEBUG = (0, core_1.getInput)('IS_DEBUG') === 'true';
 exports.FILE_NAME = (0, core_1.getInput)('FILE_NAME');
 exports.SHOW_STATS = (0, core_1.getInput)('SHOW_STATS') === 'true';
+exports.SHOW_TIME_CLASS = (0, core_1.getInput)('SHOW_TIME_CLASS') === 'true';
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
@@ -119,7 +120,7 @@ function run() {
             if (games.length === 0) {
                 throw new Error('No games found!');
             }
-            content.push((0, uti_1.formatGamesTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN));
+            content.push((0, uti_1.formatGamesTable)(games, exports.CHESS_USERNAME, exports.SHOW_DATE, exports.SHOW_FEN, exports.SHOW_TIME_CLASS));
             console.log(games.length + ' games found!');
             // Write the games to the README.md file
             const readmeContent = fs.readFileSync('./' + exports.FILE_NAME, 'utf-8');
@@ -235,9 +236,9 @@ const exec = (cmd, args = []) => new Promise((resolve, reject) => {
     });
     app.on('error', reject);
 });
-const formatGamesTable = (games, player, showDate, showFen) => {
-    const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆 |${showDate ? ' Date 📅 |' : ''}${showFen ? ' Position 🗺️ |' : ''}`;
-    const extraColumnsSize = [showDate, showFen].filter(Boolean).length;
+const formatGamesTable = (games, player, showDate, showFen, showTimeClass) => {
+    const tableHeader = `| White ⚪ | Black ⚫ | Result 🏆 |${showDate ? ' Date 📅 |' : ''}${showFen ? ' Position 🗺️ |' : ''}${showTimeClass ? ' Type 🕕 |' : ''}`;
+    const extraColumnsSize = [showDate, showFen, showTimeClass].filter(Boolean).length;
     const tableSeparator = '|' + Array.from({ length: 3 + extraColumnsSize }, () => ':---:|').join('');
     const lowerCasePlayer = player.toLowerCase();
     const gameRows = games
@@ -255,6 +256,10 @@ const formatGamesTable = (games, player, showDate, showFen) => {
         }
         if (showFen) {
             data.push(`<a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=${game.fen}">Link</a>`);
+        }
+        if (showTimeClass) {
+            const timeClass = game.time_class.charAt(0).toUpperCase() + game.time_class.slice(1);
+            data.push(`${timeClass}`);
         }
         return `| ${data.join(' | ')} |`;
     })

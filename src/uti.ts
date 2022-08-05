@@ -78,7 +78,9 @@ export const formatGamesTable = (
     showDate ? ' Date 📅 |' : ''
   }${showFen ? ' Position 🗺️ |' : ''}${showTimeClass ? ' Type 🕕 |' : ''}`;
 
-  const extraColumnsSize = [showDate, showFen, showTimeClass].filter(Boolean).length;
+  const extraColumnsSize = [showDate, showFen, showTimeClass].filter(
+    Boolean
+  ).length;
   const tableSeparator =
     '|' + Array.from({ length: 3 + extraColumnsSize }, () => ':---:|').join('');
 
@@ -110,9 +112,10 @@ export const formatGamesTable = (
         );
       }
 
-      if(showTimeClass){
-       const timeClass = game.time_class.charAt(0).toUpperCase() + game.time_class.slice(1);
-        data.push(`${timeClass}`)
+      if (showTimeClass) {
+        const timeClass =
+          game.time_class.charAt(0).toUpperCase() + game.time_class.slice(1);
+        data.push(`${timeClass}`);
       }
 
       return `| ${data.join(' | ')} |`;
