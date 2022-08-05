@@ -31,6 +31,10 @@ inputs:
     description: "Toggle the stats table"
     default: "true"
     required: false
+  SHOW_TIME_CLASS:
+    description: "Toggle the game type column"
+    default: "true"
+    required: false
 runs:
   using: 'node16'
   main: 'dist/index.js'
