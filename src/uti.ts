@@ -130,14 +130,14 @@ export const formatStatsTable = (stats: Stats): string => {
   const tableSeparator =
     '|' + Array.from({ length: 4 }, () => ':---:|').join('');
   const lastRatings = [
-    stats.chess_rapid.last.rating,
-    stats.chess_blitz.last.rating,
-    stats.chess_bullet.last.rating
+    stats.chess_rapid?.last?.rating ?? 'No Rating',
+    stats.chess_blitz?.last?.rating ?? 'No Rating',
+    stats.chess_bullet?.last?.rating ?? 'No Rating'
   ];
   const bestRatings = [
-    stats.chess_rapid.best.rating,
-    stats.chess_blitz.best.rating,
-    stats.chess_bullet.best.rating
+    stats.chess_rapid?.best?.rating ?? 'No Rating',
+    stats.chess_blitz?.best?.rating ?? 'No Rating',
+    stats.chess_bullet?.best?.rating ?? 'No Rating'
   ];
   const lastRatingRow = `| Current | ${lastRatings.join(' | ')} |`;
   const bestRatingRow = `| Best | ${bestRatings.join(' | ')} |`;
