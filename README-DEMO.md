@@ -7,22 +7,18 @@ The content genrated by the action starts here:
 <!--START_SECTION:chessStats-->
 <!-- Automatically generated with https://github.com/Balastrong/chess-stats-action -->
 
-| Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
-|:---:|:---:|:---:|:---:|
-| Current | 1116 | 1160 | 1410 |
-| Best | 1436 | 1200 | No Rating |
-
-| White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| Lune_fc09 | **VipLord** | checkmated ❌ | 30/7/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/p1pq3k/2p1NR2/1p6/6Q1/2PP4/PPK3P1/7R b - -">Link</a> | Rapid |
-| AdamKorte | **VipLord** | checkmated ❌ | 3/4/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6rk/7Q/5p2/p4B2/4b3/3q3P/P5P1/7K b - -">Link</a> | Rapid |
-| **VipLord** | Sn1perXog23 | resigned ❌ | 19/3/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2kr3r/ppp1b3/8/3pn2p/1q6/8/P1P1NP2/3R1K2 w - -">Link</a> | Rapid |
-| **VipLord** | gcmac | abandoned  | 8/3/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r4rk1/1ppq1pp1/2n2n1p/1B1pp3/P2bP1bN/R1NP4/1BPQ1PP1/5RK1 w - -">Link</a> | Rapid |
-| grsroman0 | **VipLord** | win 🥇 | 5/3/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r1q1rk1/2p2ppp/3b4/Q3p3/8/5bPN/PPPP1PnP/RNBK3R w - -">Link</a> | Rapid |
-| **VipLord** | Cacass1973 | resigned ❌ | 13/2/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2k2ppp/p2Rp2n/r1p5/3p4/3P2PP/5P2/6K1 w - -">Link</a> | Rapid |
-| mono-vs | **VipLord** | stalemate ⏸️ | 9/2/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/3p4/3Pp3/P3Pk2/3B1pR1/1PP2P2/6K1 b - -">Link</a> | Rapid |
-| danmen9 | **VipLord** | win 🥇 | 9/2/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3k3/ppp1nR2/3pb1Q1/8/8/2N5/PPP3PP/R1B1q2K w q -">Link</a> | Rapid |
-| **VipLord** | mzs_22 | win 🥇 | 23/1/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=k2q4/pp3Qp1/2p2b2/2Np4/1P5p/P7/2P2P2/4R1K1 b - -">Link</a> | Rapid |
+| White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ |
+|:---:|:---:|:---:|:---:|:---:|
+| Oleksandr_Bortnyk | **Hikaru** | win 🥇 | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r1k2r/pb1qbp1p/1p1pp1p1/n7/P2PB3/B1P4Q/2PN1PPP/R3R1K1 b k -">Link</a> |
+| **Hikaru** | jcibarra | win 🥇 | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1b2rk1/1p1nq1bp/p3N1p1/2ppP3/5PP1/1P2B1QP/P1P3B1/3R1RK1 b - -">Link</a> |
+| DesiAttack | **Hikaru** | win 🥇 | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r1kr/p2n2pp/4Nn2/1P1b4/2BB4/2P5/P4P1P/R3K3 w Q -">Link</a> |
+| MetiForce | **Hikaru** | win 🥇 | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3kb1r/p2n1p2/qp2p1p1/3pP1N1/3n1PP1/4Q3/PP1N2K1/R1B2R2 w kq -">Link</a> |
+| jcibarra | **Hikaru** | repetition ⏸️ | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/p1R5/2p5/Pp3k1P/1P6/7r/1K6 b - -">Link</a> |
+| **Hikaru** | MetiForce | win 🥇 | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7k/RP6/5p1p/4p1p1/2p1P2P/1r3PP1/7K/8 b - -">Link</a> |
+| **Hikaru** | stevis5 | win 🥇 | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r2k/p1p2Rb1/4B1Pp/1p2p3/3pN1Q1/3P4/PPP3KP/4q3 b - -">Link</a> |
+| **Hikaru** | BlueWizzard | win 🥇 | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7R/1p3Rbp/2q3pk/p5N1/P6P/1PP3P1/5P2/6K1 b - -">Link</a> |
+| TigrVShlyape | **Hikaru** | repetition ⏸️ | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4Q2k/3N2p1/2qb3n/8/7P/5PPK/8 b - -">Link</a> |
+| **Hikaru** | ExceptionallyDubious | win 🥇 | 7/9/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r5/2PQ4/4p1pk/5R1p/r4P1P/6P1/2R4K/8 b - -">Link</a> |
 
 <!--END_SECTION:chessStats-->
 
