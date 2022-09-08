@@ -268,17 +268,18 @@ const formatGamesTable = (games, player, showDate, showFen, showTimeClass) => {
 };
 exports.formatGamesTable = formatGamesTable;
 const formatStatsTable = (stats) => {
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t;
     const tableHeader = `| Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |`;
     const tableSeparator = '|' + Array.from({ length: 4 }, () => ':---:|').join('');
     const lastRatings = [
-        stats.chess_rapid.last.rating,
-        stats.chess_blitz.last.rating,
-        stats.chess_bullet.last.rating
+        (_c = (_b = (_a = stats.chess_rapid) === null || _a === void 0 ? void 0 : _a.last) === null || _b === void 0 ? void 0 : _b.rating) !== null && _c !== void 0 ? _c : 'No Rating',
+        (_f = (_e = (_d = stats.chess_blitz) === null || _d === void 0 ? void 0 : _d.last) === null || _e === void 0 ? void 0 : _e.rating) !== null && _f !== void 0 ? _f : 'No Rating',
+        (_j = (_h = (_g = stats.chess_bullet) === null || _g === void 0 ? void 0 : _g.last) === null || _h === void 0 ? void 0 : _h.rating) !== null && _j !== void 0 ? _j : 'No Rating'
     ];
     const bestRatings = [
-        stats.chess_rapid.best.rating,
-        stats.chess_blitz.best.rating,
-        stats.chess_bullet.best.rating
+        (_m = (_l = (_k = stats.chess_rapid) === null || _k === void 0 ? void 0 : _k.best) === null || _l === void 0 ? void 0 : _l.rating) !== null && _m !== void 0 ? _m : 'No Rating',
+        (_q = (_p = (_o = stats.chess_blitz) === null || _o === void 0 ? void 0 : _o.best) === null || _p === void 0 ? void 0 : _p.rating) !== null && _q !== void 0 ? _q : 'No Rating',
+        (_t = (_s = (_r = stats.chess_bullet) === null || _r === void 0 ? void 0 : _r.best) === null || _s === void 0 ? void 0 : _s.rating) !== null && _t !== void 0 ? _t : 'No Rating'
     ];
     const lastRatingRow = `| Current | ${lastRatings.join(' | ')} |`;
     const bestRatingRow = `| Best | ${bestRatings.join(' | ')} |`;

@@ -7,10 +7,10 @@ export type Game = {
   fen: string;
 };
 type Ratings = {
-  last: {
+  last?: {
     rating: number;
   };
-  best: {
+  best?: {
     rating: number;
   };
 };
