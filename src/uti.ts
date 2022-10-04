@@ -19,22 +19,17 @@ export const getGames = async (
     throw new Error('Username not provided!');
   }
 
-  const games: Game[] = [];
-  // Try the last 5 archives at most
-  const archives = (await getChessComArchives(chessUsername)).slice(0, 5);
+  let games: Game[] = [];
+  const archives = await getChessComArchives(chessUsername);
 
   for (const archive of archives) {
-    const gamesInArchive = await getChessComGames(archive);
-    if (gamesInArchive.length > 0) {
-      games.push(...gamesInArchive.reverse());
-    }
-
-    if (games.length >= amount) {
-      return games.slice(0, amount);
+    if (games.length < amount) {
+      const gamesInArchive = await getChessComGames(archive);
+      games = [...games, ...gamesInArchive.reverse()];
     }
   }
 
-  return games;
+  return games.slice(0, amount);
 };
 
 export const commitFile = async () => {

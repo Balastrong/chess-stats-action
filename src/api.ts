@@ -1,8 +1,9 @@
-import axios from 'axios';
+import fetch from './fetch';
 import { Game, Stats } from './types';
 
 export const getChessComGames = async (archive: string): Promise<Game[]> => {
-  const { data } = await axios.get<{ games: Game[] }>(archive);
+  const data = await fetch<{ games: Game[] }>(archive);
+
   return data.games.map((game: Game) => ({
     url: game.url,
     fen: game.fen,
@@ -24,16 +25,18 @@ export const getChessComGames = async (archive: string): Promise<Game[]> => {
 export const getChessComArchives = async (
   username: string
 ): Promise<string[]> => {
-  const { data } = await axios.get<{ archives: string[] }>(
+  const data = await fetch<{ archives: string[] }>(
     `https://api.chess.com/pub/player/${username}/games/archives`
   );
 
-  return data.archives.reverse();
+  // Try the last 5 archives at most
+  return data.archives.reverse().slice(0, 5);
 };
 
 export const getStats = async (username: string): Promise<Stats> => {
-  const { data } = await axios.get<Stats>(
+  const data = await fetch<Stats>(
     `https://api.chess.com/pub/player/${username}/stats/`
   );
+
   return data;
 };
