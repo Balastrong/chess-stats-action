@@ -219,13 +219,15 @@ const getGames = (chessUsername, amount) => __awaiter(void 0, void 0, void 0, fu
     if (!chessUsername) {
         throw new Error('Username not provided!');
     }
-    let games = [];
+    const games = [];
     const archives = yield (0, api_1.getChessComArchives)(chessUsername);
     for (const archive of archives) {
         if (games.length < amount) {
             const gamesInArchive = yield (0, api_1.getChessComGames)(archive);
-            games = [...games, ...gamesInArchive.reverse()];
+            games.push(...gamesInArchive.reverse());
         }
+        else
+            break;
     }
     return games.slice(0, amount);
 });

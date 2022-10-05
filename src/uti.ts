@@ -19,14 +19,14 @@ export const getGames = async (
     throw new Error('Username not provided!');
   }
 
-  let games: Game[] = [];
+  const games: Game[] = [];
   const archives = await getChessComArchives(chessUsername);
 
   for (const archive of archives) {
     if (games.length < amount) {
       const gamesInArchive = await getChessComGames(archive);
-      games = [...games, ...gamesInArchive.reverse()];
-    }
+      games.push(...gamesInArchive.reverse());
+    } else break;
   }
 
   return games.slice(0, amount);
