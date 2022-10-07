@@ -118,6 +118,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var _a;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SHOW_TIME_CLASS = exports.SHOW_STATS = exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_FEN = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
 const core_1 = __nccwpck_require__(186);
@@ -125,7 +126,7 @@ const fs = __importStar(__nccwpck_require__(747));
 const api_1 = __nccwpck_require__(947);
 const uti_1 = __nccwpck_require__(791);
 // Public parameters
-exports.CHESS_USERNAME = (0, core_1.getInput)('CHESS_USERNAME');
+exports.CHESS_USERNAME = (_a = (0, core_1.getInput)('CHESS_USERNAME')) === null || _a === void 0 ? void 0 : _a.toLowerCase();
 exports.GAMES_SIZE = parseInt((0, core_1.getInput)('GAMES_SIZE')) || 10;
 exports.SHOW_DATE = (0, core_1.getInput)('SHOW_DATE') === 'true';
 exports.SHOW_FEN = (0, core_1.getInput)('SHOW_FEN') === 'true';
@@ -137,6 +138,9 @@ exports.SHOW_TIME_CLASS = (0, core_1.getInput)('SHOW_TIME_CLASS') === 'true';
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
+            if (!exports.CHESS_USERNAME) {
+                throw new Error('Username not provided!');
+            }
             const content = [];
             if (exports.SHOW_STATS) {
                 const stats = yield (0, api_1.getStats)(exports.CHESS_USERNAME);

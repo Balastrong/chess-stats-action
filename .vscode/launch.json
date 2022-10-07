@@ -15,7 +15,8 @@
         "INPUT_CHESS_USERNAME": "hikaru",
         "INPUT_SHOW_DATE": "true",
         "INPUT_SHOW_FEN": "true",
-        "INPUT_SHOW_STATS": "true"
+        "INPUT_SHOW_STATS": "true",
+        "INPUT_SHOW_TIME_CLASS": "true"
       }
     }
   ]
