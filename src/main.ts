@@ -14,7 +14,7 @@ import {
 } from './uti';
 
 // Public parameters
-export const CHESS_USERNAME = getInput('CHESS_USERNAME');
+export const CHESS_USERNAME = getInput('CHESS_USERNAME')?.toLowerCase();
 export const GAMES_SIZE = parseInt(getInput('GAMES_SIZE')) || 10;
 export const SHOW_DATE = getInput('SHOW_DATE') === 'true';
 export const SHOW_FEN = getInput('SHOW_FEN') === 'true';
@@ -26,6 +26,10 @@ export const SHOW_TIME_CLASS = getInput('SHOW_TIME_CLASS') === 'true';
 
 async function run(): Promise<void> {
   try {
+    if (!CHESS_USERNAME) {
+      throw new Error('Username not provided!');
+    }
+
     const content: string[] = [];
 
     if (SHOW_STATS) {
