@@ -35,7 +35,7 @@ export const getChessComArchives = async (
 
 export const getStats = async (username: string): Promise<Stats> => {
   const data = await fetch<Stats>(
-    `https://api.chess.com/pub/player/${username}/stats/`
+    `https://api.chess.com/pub/player/${username}/stats`
   );
 
   return data;

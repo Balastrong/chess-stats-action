@@ -48,7 +48,7 @@ const getChessComArchives = (username) => __awaiter(void 0, void 0, void 0, func
 });
 exports.getChessComArchives = getChessComArchives;
 const getStats = (username) => __awaiter(void 0, void 0, void 0, function* () {
-    const data = yield (0, fetch_1.default)(`https://api.chess.com/pub/player/${username}/stats/`);
+    const data = yield (0, fetch_1.default)(`https://api.chess.com/pub/player/${username}/stats`);
     return data;
 });
 exports.getStats = getStats;
@@ -189,7 +189,9 @@ function run() {
         }
     });
 }
-run();
+if (process.env.NODE_ENV !== 'test') {
+    run();
+}
 
 
 /***/ }),
@@ -209,7 +211,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.setFailure = exports.formatStatsTable = exports.formatGamesTable = exports.commitFile = exports.getGames = exports.INFO_LINE = exports.END_TOKEN = exports.START_TOKEN = void 0;
+exports.setFailure = exports.boldifyPlayer = exports.formatStatsTable = exports.formatGamesTable = exports.commitFile = exports.getGames = exports.INFO_LINE = exports.END_TOKEN = exports.START_TOKEN = void 0;
 const core_1 = __nccwpck_require__(186);
 const child_process_1 = __nccwpck_require__(129);
 const iswitch_1 = __nccwpck_require__(476);
@@ -274,8 +276,8 @@ const formatGamesTable = (games, player, showDate, showFen, showTimeClass) => {
         const { white, black } = game;
         const player = white.username.toLowerCase() === lowerCasePlayer ? white : black;
         const data = [
-            boldifyPlayer(white.username, player.username),
-            boldifyPlayer(black.username, player.username),
+            (0, exports.boldifyPlayer)(white.username, player.username),
+            (0, exports.boldifyPlayer)(black.username, player.username),
             formatResult(player.result)
         ];
         if (showDate) {
@@ -315,6 +317,7 @@ const formatStatsTable = (stats) => {
 };
 exports.formatStatsTable = formatStatsTable;
 const boldifyPlayer = (test, player) => test === player ? `**${test}**` : test;
+exports.boldifyPlayer = boldifyPlayer;
 const formatResult = (result) => {
     const icon = (0, iswitch_1.iswitch)(result, ['win', () => '🥇'], [['timeout', 'checkmated', 'resigned'], () => '❌'], [
         [

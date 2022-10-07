@@ -102,4 +102,6 @@ async function run(): Promise<void> {
   }
 }
 
-run();
+if (process.env.NODE_ENV !== 'test') {
+  run();
+}

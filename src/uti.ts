@@ -140,7 +140,7 @@ export const formatStatsTable = (stats: Stats): string => {
   return `${tableHeader}\n${tableSeparator}\n${lastRatingRow}\n${bestRatingRow}\n`;
 };
 
-const boldifyPlayer = (test: string, player: string): string =>
+export const boldifyPlayer = (test: string, player: string): string =>
   test === player ? `**${test}**` : test;
 
 const formatResult = (result: Result): string => {
