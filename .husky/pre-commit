@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run all && git add -A .
+npm run pre-commit-checks && git add -A .

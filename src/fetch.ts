@@ -1,7 +1,7 @@
 import http from 'https';
 
 export default function fetch<Type>(url: string): Promise<Type> {
-  return new Promise((res, rej) => {
+  return new Promise<Type>((res, rej) => {
     http.get(url, response => {
       let data = '';
 

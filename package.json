@@ -14,6 +14,7 @@
     "test": "jest",
     "test-rebuild": "npm run build && npm run test",
     "all": "npm run build && npm run format && npm run lint && npm run package && npm test",
+    "pre-commit-checks": "npm run format-check && npm run lint-check && npm run build && npm run package",
     "debug": "npx ts-node ./src/main.ts INPUT_IS_DEBUG='true' INPUT_FILE_NAME='README-DEMO.md' INPUT_CHESS_USERNAME='hikaru' INPUT_SHOW_DATE='true'",
     "prepare": "husky install"
   },
@@ -33,6 +34,7 @@
     "iswitch": "^0.0.3"
   },
   "devDependencies": {
+    "@types/jest": "^27.5.2",
     "@types/node": "^16.10.5",
     "@typescript-eslint/parser": "^5.8.1",
     "@vercel/ncc": "^0.31.1",
