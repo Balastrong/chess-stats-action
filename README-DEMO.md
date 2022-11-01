@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2785 | 3249 | 3342 |
+| Current | 2785 | 3239 | 3342 |
 | Best | 2927 | 3332 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| **Hikaru** | nihalsarin | resigned ❌ | 31/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r1k1/2p3p1/7p/4p3/1p1bP3/pN1R1PBP/P1r3P1/5K2 w - -">Link</a> | Blitz |
+| nihalsarin | **Hikaru** | win 🥇 | 31/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/6p1/3Rb3/4P2p/8/8/5BP1/1q4K1 w - -">Link</a> | Blitz |
+| **Hikaru** | nihalsarin | resigned ❌ | 31/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/5nkp/4K3/5P2/8/8 w - -">Link</a> | Blitz |
+| nihalsarin | **Hikaru** | resigned ❌ | 31/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1kr5/pp4p1/5p2/q7/1NRN1P2/P3n1P1/1Q4P1/1K3R2 b - -">Link</a> | Blitz |
+| **Hikaru** | nihalsarin | win 🥇 | 31/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5N2/r5pk/2pNq2p/2P3pP/3pP1P1/1p1P1R2/1P3PK1/8 b - -">Link</a> | Blitz |
+| nihalsarin | **Hikaru** | repetition ⏸️ | 31/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/7k/7P/5rPK/5N2/8/8 w - -">Link</a> | Blitz |
+| **Hikaru** | nihalsarin | win 🥇 | 31/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1Q6/1p5p/kP6/p1q5/PbN5/3rP1P1/3p1P1P/3R2K1 b - -">Link</a> | Blitz |
+| nihalsarin | **Hikaru** | win 🥇 | 31/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3rk3/8/2P2p1p/5P2/6P1/8/5K2 w - -">Link</a> | Blitz |
+| **Hikaru** | nihalsarin | resigned ❌ | 31/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r4r1k/1ppqn1pp/1p1p4/3Qp3/2PnPP2/4B1P1/P4R1P/5RKB w - -">Link</a> | Blitz |
 | exoticprincess | **Hikaru** | insufficient ⏸️ | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/n2K4/8/k7/8/8 b - -">Link</a> | Blitz |
-| **Hikaru** | exoticprincess | win 🥇 | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2R1k3/3p1N2/pp1P2P1/1b3p2/1P2p3/4P1r1/3K4/8 b - -">Link</a> | Blitz |
-| nihalsarin | **Hikaru** | win 🥇 | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5bk1/5p2/p1q1p1p1/1p2P1Pp/1P3n1P/P2Q3K/2B2B2 w - -">Link</a> | Blitz |
-| **Hikaru** | nihalsarin | win 🥇 | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=kr2q3/1p4bp/pQ2Bnp1/3N4/3P4/2R2P2/PPP4P/3K4 b - -">Link</a> | Blitz |
-| nihalsarin | **Hikaru** | win 🥇 | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=bk1r3r/p1bq2p1/1p3p2/2p2N2/4N1Q1/PP1n4/6PP/B1R2RK1 w - -">Link</a> | Blitz |
-| **Hikaru** | nihalsarin | resigned ❌ | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/p4p2/1p2p1k1/1P1p3p/3P3P/P2r2PK/8/5R2 w - -">Link</a> | Blitz |
-| nihalsarin | **Hikaru** | timevsinsufficient ⏸️ | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/8/8/3K1N2/3B2k1/8 w - -">Link</a> | Blitz |
-| **Hikaru** | nihalsarin | resigned ❌ | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2k2r2/pp1n2pp/6r1/N1P1p3/b1PnP3/P7/3q2PP/1BR2RQK w - -">Link</a> | Blitz |
-| nihalsarin | **Hikaru** | repetition ⏸️ | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/7r/8/2k5/p1p5/P1P5/1PKR4/8 w - -">Link</a> | Blitz |
-| **Hikaru** | nihalsarin | insufficient ⏸️ | 29/10/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1K6/8/8/3b4/3k4/8/8 b - -">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
