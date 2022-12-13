@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2806 | 3218 | 3293 |
+| Current | 2806 | 3194 | 3281 |
 | Best | 2927 | 3332 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | dropstoneDP | checkmated ❌ | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/Kq6/2k5/8/8/8/8 w - -">Link</a> | Bullet |
-| dropstoneDP | **Hikaru** | resigned ❌ | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6R1/6p1/3k1p2/5P1p/5K2/8/8 b - -">Link</a> | Bullet |
-| **Hikaru** | dropstoneDP | win 🥇 | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=k1r2R2/P5P1/8/8/2b1p3/4K3/2p5/R7 b - -">Link</a> | Bullet |
-| dropstoneDP | **Hikaru** | win 🥇 | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/2R2pBp/3P2pP/8/K2n4/1r3N2/r7/3R4 w - -">Link</a> | Bullet |
-| **Hikaru** | dropstoneDP | win 🥇 | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3q2r/p6Q/1p2pk2/8/2B1NBp1/5n2/PP3K2/R7 b - -">Link</a> | Bullet |
-| dropstoneDP | **Hikaru** | win 🥇 | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=R7/5pk1/P5p1/2p5/2K5/8/r6p/8 w - -">Link</a> | Bullet |
-| **Hikaru** | dropstoneDP | resigned ❌ | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r1k1/pp3pp1/8/P5Pp/8/N1p2qP1/2Q5/4RK2 w - -">Link</a> | Bullet |
-| dropstoneDP | **Hikaru** | resigned ❌ | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4P1k1/5p2/3p1K2/8/2r2P2/8/4R3 b - -">Link</a> | Bullet |
-| **Hikaru** | dropstoneDP | win 🥇 | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r2/R3R3/1p3n1k/5rp1/P4P2/1P1B2P1/1KP5/8 b - -">Link</a> | Bullet |
-| dropstoneDP | **Hikaru** | win 🥇 | 8/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/3p1rp1/2kPp3/p1p1P2P/1nP1K3/4B3/1R6 w - -">Link</a> | Blitz |
+| LevonAronian | **Hikaru** | repetition ⏸️ | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5K2/6R1/r5k1/8/8/8/8 b - -">Link</a> | Bullet |
+| **Hikaru** | LevonAronian | checkmated ❌ | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r1K/8/6k1/8/8/8/8/8 w - -">Link</a> | Bullet |
+| LevonAronian | **Hikaru** | win 🥇 | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7r/5k2/p2p3r/2pPqb1N/1pP1N3/5P2/PP2Q3/1K5R w - -">Link</a> | Bullet |
+| **Hikaru** | LevonAronian | win 🥇 | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/8/1pb5/p1p5/5R2/1Q4Pq/PP3P2/6K1 b - -">Link</a> | Bullet |
+| LevonAronian | **Hikaru** | win 🥇 | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/8/P3k3/1K2Nq2/8/8 w - -">Link</a> | Bullet |
+| **Hikaru** | LevonAronian | repetition ⏸️ | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1p6/pPn1kp2/P1KNp1p1/4P1Pp/2P2P2/7P/8 w - -">Link</a> | Bullet |
+| LevonAronian | **Hikaru** | repetition ⏸️ | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5k2/1R6/5PK1/8/8/8/6r1 w - -">Link</a> | Bullet |
+| **Hikaru** | LevonAronian | repetition ⏸️ | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2N5/3k4/5p2/3b1Pp1/6P1/6K1/8 w - -">Link</a> | Blitz |
+| LevonAronian | **Hikaru** | repetition ⏸️ | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5b2/5kp1/p2p4/Pp1P1K1P/1P3B2/8/8 w - -">Link</a> | Blitz |
+| **Hikaru** | LevonAronian | checkmated ❌ | 12/12/2022 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3R1nk1/4q3/6p1/4KP2/2q5/8/8 w - -">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
