@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2806 | 3243 | 3293 |
+| Current | 2806 | 3204 | 3293 |
 | Best | 2927 | 3332 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| Meri-Arabidze | **Hikaru** | win 🥇 | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/4B1bp/1R4p1/8/2P1q3/5nPP/5PK1/5R2 w - -">Link</a> | Bullet |
-| Tonychess32 | **Hikaru** | resigned ❌ | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4k3/p1q1p1Qp/2PpRp2/3P4/7P/5P2/1R5K b - -">Link</a> | Bullet |
-| MITerryble | **Hikaru** | win 🥇 | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r2r2k1/2pnR1b1/1p5p/8/1P3p2/2P2N2/5PPP/4R1K1 w - -">Link</a> | Bullet |
-| Grandmaster2B | **Hikaru** | win 🥇 | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5pkp/3p2p1/3P4/5P2/5q1P/3R4/4K3 w - -">Link</a> | Bullet |
-| Meri-Arabidze | **Hikaru** | win 🥇 | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5R2/3r4/8/8/2K2p2/5k2/8/8 w - -">Link</a> | Bullet |
-| exoticprincess | **Hikaru** | checkmated ❌ | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r2k1/3n1Q1R/8/8/2PP1N2/6P1/P4PKP/1q2r3 b - -">Link</a> | Bullet |
-| DonkyDonkyDonkey | **Hikaru** | win 🥇 | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r1k/2q4p/p7/4p1Q1/1pPb4/1P4P1/P3nP2/2R3KB w - -">Link</a> | Bullet |
-| **Hikaru** | NotYetFinish | resigned ❌ | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r4rk1/1bq2pbp/p2pp1p1/1pn5/4PP2/P1NB1N2/1PPBR1PP/4R2K w - -">Link</a> | Bullet |
-| DonkyDonkyDonkey | **Hikaru** | win 🥇 | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k6/p7/P2n1P2/8/5K2/1p4P1/6P1/8 w - -">Link</a> | Bullet |
-| **Hikaru** | Konavets | win 🥇 | 28/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r2/p2k1rp1/2p1p3/1p3P2/3P4/2P4R/PP2RP1P/2B3K1 b - -">Link</a> | Bullet |
+| DanielNaroditsky | **Hikaru** | win 🥇 | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/7K/8/4P3/3n4/8/4k3/8 w - -">Link</a> | Bullet |
+| **Hikaru** | DanielNaroditsky | resigned ❌ | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2R5/1p4k1/1P1p3q/3Pp3/4Pb2/5P2/6Bp/7K w - -">Link</a> | Bullet |
+| DanielNaroditsky | **Hikaru** | resigned ❌ | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/1b2b1q1/2p3p1/1p4Np/1P2n1N1/1BP3P1/3Q1PP1/6K1 b - -">Link</a> | Bullet |
+| **Hikaru** | DanielNaroditsky | win 🥇 | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r6k/pp2rQb1/2p5/2Pp4/1P1Pq3/4B2R/P6K/R7 b - -">Link</a> | Bullet |
+| Firouzja2003 | **Hikaru** | insufficient ⏸️ | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5k2/8/6b1/5N2/5K2/8/8 b - -">Link</a> | Blitz |
+| **Hikaru** | Firouzja2003 | agreed ⏸️ | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r7/3k3p/2p3p1/1p1b1p2/p7/P1B1PPP1/1P5P/2R3K1 w - -">Link</a> | Blitz |
+| Firouzja2003 | **Hikaru** | repetition ⏸️ | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2k1N3/1R6/P1r4p/8/1K6/8/5b2 w - -">Link</a> | Blitz |
+| **Hikaru** | Firouzja2003 | resigned ❌ | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r7/8/1p3kp1/8/P6p/7P/1r3PP1/4R1K1 w - -">Link</a> | Blitz |
+| Firouzja2003 | **Hikaru** | win 🥇 | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6p1/6kp/8/8/8/7P/5K2 w - -">Link</a> | Blitz |
+| **Hikaru** | Firouzja2003 | agreed ⏸️ | 30/1/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1R6/6pk/4pb1p/8/2r1N3/8/5PPP/5K2 w - -">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
