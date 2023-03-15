@@ -14,16 +14,16 @@ The content genrated by the action starts here:
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ChessWarrior7197 | **Hikaru** | win 🥇 | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3R1pk1/4q1p1/4p2p/1p5P/4QPP1/1P1R2K1/5r1r w - -">Link</a> | Blitz |
-| **Hikaru** | ChessWarrior7197 | win 🥇 | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/1prr1pp1/p3p2p/2PnP3/PP2N3/6P1/3R1B1P/2R4K b - -">Link</a> | Blitz |
-| ChessWarrior7197 | **Hikaru** | win 🥇 | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/6p1/2p5/1pP2k2/1P1K4/8/8 w - -">Link</a> | Blitz |
-| **Hikaru** | ChessWarrior7197 | agreed ⏸️ | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/5pk1/P1R4p/r4K1P/6P1/8 w - -">Link</a> | Blitz |
-| ChessWarrior7197 | **Hikaru** | win 🥇 | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2p5/4k1p1/2bR3p/2N1P2P/1P3p2/2rB3n/5K2 w - -">Link</a> | Blitz |
-| **Hikaru** | ChessWarrior7197 | repetition ⏸️ | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1K6/2P1kp2/2R3p1/8/8/8/r7 b - -">Link</a> | Blitz |
-| joppie2 | **Hikaru** | agreed ⏸️ | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/k5p1/P3K3/6PP/2B5/8/3b4 w - -">Link</a> | Blitz |
-| **Hikaru** | joppie2 | checkmated ❌ | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2kr3r/1pp3p1/p7/2b1p3/6b1/P1P1B1Pp/B5qP/R1N1QRK1 w - -">Link</a> | Blitz |
-| joppie2 | **Hikaru** | win 🥇 | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r2q2r1/3Pbk1p/4p2P/3pPNP1/2n2P2/2P1B2Q/p6R/1q2R1K1 w - -">Link</a> | Blitz |
-| **Hikaru** | joppie2 | win 🥇 | 13/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r6/k4pp1/p2q1n2/2R4p/2QpP2P/3P2PB/P1P3K1/8 b - -">Link</a> | Blitz |
+| **Hikaru** | VladimirKramnik | resigned ❌ | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3r1k1/pp4p1/2nb4/1B1p4/3P2K1/2N5/PP2N1q1/R1BQ4 w - -">Link</a> | Blitz |
+| rasmussvane | **Hikaru** | resigned ❌ | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5k2/2p2p2/5QNp/2pq2p1/rP6/7P/5PPK/8 b - -">Link</a> | Blitz |
+| **Hikaru** | Oleksandr_Bortnyk | resigned ❌ | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2r3k1/P2R2Pp/4n3/8/5b2/2r2p2/R2K1B2 w - -">Link</a> | Blitz |
+| **Hikaru** | Krakozia | win 🥇 | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=Q7/5pk1/2p1p1p1/7p/3Q1P1P/5PPK/8/3Bq3 b - -">Link</a> | Blitz |
+| LyonBeast | **Hikaru** | win 🥇 | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2k5/3nP3/4Kn2/P1pP4/2P5/7p/8/8 w - -">Link</a> | Blitz |
+| **Hikaru** | GHANDEEVAM2003 | agreed ⏸️ | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/6R1/5p2/6rk/5K2/8/8 w - -">Link</a> | Blitz |
+| nrvisakh | **Hikaru** | win 🥇 | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k5r/1pp4P/8/2b1pN2/1n1pP3/3P3R/p2B3K/8 w - -">Link</a> | Blitz |
+| **Hikaru** | hansen | repetition ⏸️ | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/5k2/5p2/5K2/8/8 w - -">Link</a> | Blitz |
+| CarlosAlbornoz | **Hikaru** | win 🥇 | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/p1p5/3r2pp/4k3/2Bb4/1P1Rp3/P1r3PP/3RK3 w - -">Link</a> | Blitz |
+| **Hikaru** | GoltsevDmitry2000 | win 🥇 | 14/3/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4k3/8/P5p1/1P3p1p/2n5/6P1/2P1r3/2KR1B2 b - -">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
