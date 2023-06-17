@@ -14,16 +14,16 @@ The content genrated by the action starts here:
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| SantoBlue | **Hikaru** | win 🥇 | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5bk1/8/p6p/1p4p1/5p2/P1PNr2P/5KP1/3R4 w - -">Link</a> | Blitz |
-| **Hikaru** | SantoBlue | win 🥇 | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/1p1P2k1/1p6/p7/7P/6P1/PP3RK1/8 b - -">Link</a> | Blitz |
-| SantoBlue | **Hikaru** | win 🥇 | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2q2rk1/4ppb1/p5p1/1p4Bp/6PP/1r3P2/N4Q2/1K1R3R w - -">Link</a> | Blitz |
-| **Hikaru** | SantoBlue | win 🥇 | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2k2P1p/2n5/8/p4P2/P5N1/2q3PP/6BK b - -">Link</a> | Blitz |
-| SantoBlue | **Hikaru** | win 🥇 | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2q4K/8/R7/6k1/8/8/8/8 w - -">Link</a> | Blitz |
-| **Hikaru** | SantoBlue | win 🥇 | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r4r1k/pbp1q1bp/1pnp1np1/3N2N1/2B1P2Q/7P/PPP3P1/R1B2RK1 b - -">Link</a> | Blitz |
-| SantoBlue | **Hikaru** | resigned ❌ | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/4Rr2/p3Qnp1/1p1P3p/1P1q3P/5BP1/P5K1/8 b - -">Link</a> | Blitz |
-| **Hikaru** | SantoBlue | win 🥇 | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5rn1/2p1b2k/1q4pp/4P3/2P5/2nPBNNP/5QP1/5RK1 b - -">Link</a> | Blitz |
-| SantoBlue | **Hikaru** | win 🥇 | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5rk1/1p3pb1/4p1pp/3pn3/p2r3P/P5PQ/1q3PBN/2R1R1K1 w - -">Link</a> | Blitz |
-| **Hikaru** | SantoBlue | win 🥇 | 15/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/5n1p/3p3q/P2N1p2/2P1rP2/1P3Q1P/6P1/3R2K1 b - -">Link</a> | Blitz |
+| MKRasljechess | **Hikaru** | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r7/pp2bk1p/2b1pppP/3r4/P1NP4/1P2B3/5PK1/3RR3 b - -">Link</a> | Blitz |
+| **Hikaru** | MKRasljechess | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r1rk1/3n1p2/p4Ppn/1ppqp1N1/3p3Q/P2P3P/1PP3P1/R4RK1 w - -">Link</a> | Blitz |
+| MKRasljechess | **Hikaru** | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6r1/8/8/8/3k1K2/4p3/8 w - -">Link</a> | Blitz |
+| **Hikaru** | MKRasljechess | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1br2k1/4b3/pq2p1pp/1p1pPn2/3P2P1/3Q1N2/PPB1RP2/R1B3K1 b - -">Link</a> | Blitz |
+| MKRasljechess | **Hikaru** | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r1k2/p1r1R2p/1p3ppN/8/1P6/P4bP1/5P1P/4R1K1 b - -">Link</a> | Blitz |
+| **Hikaru** | MKRasljechess | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2rqrk2/3b3Q/4pbPp/pp1pP3/3P2P1/8/PP2RP2/R5K1 w - -">Link</a> | Blitz |
+| MKRasljechess | **Hikaru** | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1rb2rk1/p1p2pp1/2p5/3n3p/3Pp2P/P7/1q2B3/RNKQ3R w - -">Link</a> | Blitz |
+| **Hikaru** | MKRasljechess | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/p2R2Q1/1p3kP1/2p2pnp/8/2P5/P1P4K/8 b - -">Link</a> | Blitz |
+| MKRasljechess | **Hikaru** | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r5k1/p4pp1/4p2p/3nB3/1p1P4/5P1P/5P2/2R3K1 w - -">Link</a> | Blitz |
+| **Hikaru** | MKRasljechess | win 🥇 | 16/6/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r3rk1/5p1p/p1R2p2/3N4/1b4b1/1P2PN2/P4PPP/3R2K1 b - -">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
