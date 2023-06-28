@@ -68,7 +68,14 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const https_1 = __importDefault(__nccwpck_require__(211));
 function fetch(url) {
     return new Promise((res, rej) => {
-        https_1.default.get(url, response => {
+        https_1.default.get({
+            host: 'api.chess.com',
+            path: url,
+            headers: {
+                'Content-Type': 'application/json',
+                'User-Agent': 'chesscom-stats-github-action'
+            }
+        }, response => {
             let data = '';
             response.on('data', chunk => (data += chunk));
             response.on('end', () => res(JSON.parse(data)));
