@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2781 | 3260 | 3331 |
+| Current | 2796 | 3260 | 3331 |
 | Best | 2927 | 3332 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | NikoTheodorou | win 🥇 | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=R7/P7/1k6/8/2p1P1P1/5K2/8/6r1 b - -">Link</a> | Blitz |
-| NikoTheodorou | **Hikaru** | win 🥇 | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3n1p1k/p2q3p/1p1n4/3P3p/2P2Q1P/PP3PPK/8 w - -">Link</a> | Blitz |
-| **Hikaru** | NikoTheodorou | win 🥇 | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3N4/5p2/6p1/3kP2p/5P1P/n5PK/8/8 b - -">Link</a> | Blitz |
-| NikoTheodorou | **Hikaru** | win 🥇 | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2R5/8/8/1n6/1k6/8/1K1r4 w - -">Link</a> | Blitz |
-| **Hikaru** | NikoTheodorou | stalemate ⏸️ | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/8/7p/1q5P/3k4/K7 w - -">Link</a> | Blitz |
-| dropstoneDP | **Hikaru** | win 🥇 | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4rk2/1b3p2/p6p/2pqnQ1N/3p4/2P3P1/PPB4P/5RK1 w - -">Link</a> | Blitz |
-| **Hikaru** | dropstoneDP | win 🥇 | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4RQ2/3k4/P1p3K1/3p2b1/3P4/8/8/5r2 b - -">Link</a> | Blitz |
-| dropstoneDP | **Hikaru** | win 🥇 | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3q4/1p2nkb1/2p1Rp2/8/3PQ3/2P5/3r2P1/6K1 w - -">Link</a> | Blitz |
-| **Hikaru** | dropstoneDP | win 🥇 | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/5b2/1p1K4/1B6/1Bp3P1/3k4 b - -">Link</a> | Blitz |
-| dropstoneDP | **Hikaru** | resigned ❌ | 16/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/2r5/3Q1k2/7P/5P2/2p3K1/8 b - -">Link</a> | Blitz |
+| FairChess_on_YouTube | **Hikaru** | insufficient ⏸️ | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/7k/5K2/8/8/8/8/8 w - -">Link</a> | Rapid |
+| **Hikaru** | FairChess_on_YouTube | win 🥇 | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5Q2/1pp3kp/6n1/p7/P1PpP3/2rP1R2/4q2P/6RK b - -">Link</a> | Rapid |
+| FairChess_on_YouTube | **Hikaru** | resigned ❌ | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5k2/R7/8/5KPp/7P/p4P2/8/r7 w - -">Link</a> | Rapid |
+| FabianoCaruana | **Hikaru** | agreed ⏸️ | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1bqk2r/ppppbppp/2n5/4Nn2/8/8/PPPP1PPP/RNBQRBK1 w kq -">Link</a> | Rapid |
+| **Hikaru** | FairChess_on_YouTube | agreed ⏸️ | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1bqkbnr/pppp2pp/2n5/1B2pp2/4P3/3P1N2/PPP2PPP/RNBQK2R b KQkq -">Link</a> | Rapid |
+| GHANDEEVAM2003 | **Hikaru** | win 🥇 | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/4k3/1p1p4/7R/2P4P/3n3r/3N1K2 w - -">Link</a> | Rapid |
+| Andreikka | **Hikaru** | agreed ⏸️ | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5pk1/1pR5/6p1/3rP3/6PP/5K2/8 b - -">Link</a> | Rapid |
+| **Hikaru** | Sargsyan_Shant | win 🥇 | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/1p2nRp1/4p2p/1Pk5/P1N1N1P1/2r4P/8/5BK1 b - -">Link</a> | Rapid |
+| Sychev_Klementy | **Hikaru** | win 🥇 | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/1p4p1/p1b4p/8/1P6/r4NPP/1r4P1/2R1R1K1 w - -">Link</a> | Rapid |
+| **Hikaru** | GeorgMeier | resigned ❌ | 18/9/2023 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/3p1k2/2nP2p1/1p1NP1K1/8/8 w - -">Link</a> | Rapid |
 
 <!--END_SECTION:chessStats-->
 
