@@ -44,6 +44,8 @@ jobs:
   update-readme:
     name: Update readme with your chess stats and games
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - uses: Balastrong/chess-stats-action@main
@@ -55,16 +57,18 @@ jobs:
 
 There are a few configuration options you can use in your GitHub Action.
 
-|   Parameter    |                   Description                    |                 Default                 | Required |
-| :------------: | :----------------------------------------------: | :-------------------------------------: | :------: |
-| CHESS_USERNAME |             Your chess.com username              |                 hikaru                  | **Yes**  |
-|   COMMIT_MSG   | Commit message used while committing to the repo | ♟️ Updated README with your chess games |    No    |
-|   GAMES_SIZE   |              How many games to load              |                   10                    |    No    |
-|   SHOW_DATE    |              Toggle the Date column              |                  true                   |    No    |
-|    SHOW_FEN    |            Toggle the Position column            |                  true                   |    No    |
-|   FILE_NAME    |       Define a specific file in your repo        |                README.md                |    No    |
-|   SHOW_STATS   |                    Show stats                    |                  true                   |    No    |
-| SHOW_TIME_CLASS|         Toggle the game type column              |                  true                   |    No    |
+|    Parameter    |                    Description                    |                        Default                        | Required |
+|:---------------:|:-------------------------------------------------:|:-----------------------------------------------------:|:--------:|
+| CHESS_USERNAME  |              Your chess.com username              |                        hikaru                         | **Yes**  |
+|  COMMIT_EMAIL   |  Commit email used while committing to the repo   | 41898282+github-actions[bot]@users.noreply.github.com |    No    |
+|   COMMIT_MSG    | Commit message used while committing to the repo  |        ♟️ Updated README with your chess games        |    No    |
+| COMMIT_USERNAME | Commit username used while committing to the repo |                    chess-stats-bot                    |    No    |
+|   GAMES_SIZE    |              How many games to load               |                          10                           |    No    |
+|    SHOW_DATE    |              Toggle the Date column               |                         true                          |    No    |
+|    SHOW_FEN     |            Toggle the Position column             |                         true                          |    No    |
+|    FILE_NAME    |        Define a specific file in your repo        |                       README.md                       |    No    |
+|   SHOW_STATS    |                    Show stats                     |                         true                          |    No    |
+| SHOW_TIME_CLASS |            Toggle the game type column            |                         true                          |    No    |
 
 ## Contributing
 

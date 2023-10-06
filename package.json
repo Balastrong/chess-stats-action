@@ -15,7 +15,7 @@
     "test-rebuild": "npm run build && npm run test",
     "all": "npm run build && npm run format && npm run lint && npm run package && npm test",
     "pre-commit-checks": "npm run format-check && npm run lint-check && npm run build && npm run package",
-    "debug": "npx ts-node ./src/main.ts INPUT_IS_DEBUG='true' INPUT_FILE_NAME='README-DEMO.md' INPUT_CHESS_USERNAME='hikaru' INPUT_SHOW_DATE='true'",
+    "debug": "INPUT_IS_DEBUG='true' INPUT_FILE_NAME='README-DEMO.md' INPUT_CHESS_USERNAME='hikaru' INPUT_SHOW_DATE='true' npx ts-node ./src/main.ts",
     "prepare": "husky install"
   },
   "repository": {

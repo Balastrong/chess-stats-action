@@ -127,7 +127,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 var _a;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.SHOW_TIME_CLASS = exports.SHOW_STATS = exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_MSG = exports.SHOW_FEN = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
+exports.SHOW_TIME_CLASS = exports.SHOW_STATS = exports.FILE_NAME = exports.IS_DEBUG = exports.COMMIT_USERNAME = exports.COMMIT_MSG = exports.COMMIT_EMAIL = exports.SHOW_FEN = exports.SHOW_DATE = exports.GAMES_SIZE = exports.CHESS_USERNAME = void 0;
 const core_1 = __nccwpck_require__(186);
 const fs = __importStar(__nccwpck_require__(747));
 const api_1 = __nccwpck_require__(947);
@@ -137,7 +137,9 @@ exports.CHESS_USERNAME = (_a = (0, core_1.getInput)('CHESS_USERNAME')) === null 
 exports.GAMES_SIZE = parseInt((0, core_1.getInput)('GAMES_SIZE')) || 10;
 exports.SHOW_DATE = (0, core_1.getInput)('SHOW_DATE') === 'true';
 exports.SHOW_FEN = (0, core_1.getInput)('SHOW_FEN') === 'true';
+exports.COMMIT_EMAIL = (0, core_1.getInput)('COMMIT_EMAIL');
 exports.COMMIT_MSG = (0, core_1.getInput)('COMMIT_MSG');
+exports.COMMIT_USERNAME = (0, core_1.getInput)('COMMIT_USERNAME');
 exports.IS_DEBUG = (0, core_1.getInput)('IS_DEBUG') === 'true';
 exports.FILE_NAME = (0, core_1.getInput)('FILE_NAME');
 exports.SHOW_STATS = (0, core_1.getInput)('SHOW_STATS') === 'true';
@@ -246,13 +248,8 @@ const getGames = (chessUsername, amount) => __awaiter(void 0, void 0, void 0, fu
 });
 exports.getGames = getGames;
 const commitFile = () => __awaiter(void 0, void 0, void 0, function* () {
-    yield exec('git', [
-        'config',
-        '--global',
-        'user.email',
-        '41898282+github-actions[bot]@users.noreply.github.com'
-    ]);
-    yield exec('git', ['config', '--global', 'user.name', 'chess-stats-bot']);
+    yield exec('git', ['config', '--global', 'user.email', main_1.COMMIT_EMAIL]);
+    yield exec('git', ['config', '--global', 'user.name', main_1.COMMIT_USERNAME]);
     yield exec('git', ['add', main_1.FILE_NAME]);
     yield exec('git', ['commit', '-m', main_1.COMMIT_MSG]);
     yield exec('git', ['push']);
