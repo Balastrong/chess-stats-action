@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2762 | 3256 | 3230 |
+| Current | 2762 | 3240 | 3264 |
 | Best | 2927 | 3405 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| aa175 | **Hikaru** | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4b1k1/1r2r2p/Q1n1pq2/3p2p1/8/5N2/6PP/R2R3K w - -">Link</a> | Blitz |
-| **Hikaru** | aa175 | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/5k1p/r1pqppp1/p1Pp1n2/3P4/1P3N2/P3QPPP/R4RK1 b - -">Link</a> | Blitz |
-| aa175 | **Hikaru** | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4k3/6R1/3pp1p1/6Pp/2P3r1/1P4K1/8 w - -">Link</a> | Blitz |
-| **Hikaru** | aa175 | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r1k1/1pQn3p/4q1pB/8/p2pP3/P2p3P/1rP2RP1/5RK1 b - -">Link</a> | Blitz |
-| aa175 | **Hikaru** | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4KN2/2q5/3k4/8/8/8/8/8 w - -">Link</a> | Blitz |
-| **Hikaru** | aa175 | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r1k/r5pp/1pp1N3/p2pPpq1/Pn1P4/1Q2P3/1P4PP/2R2RK1 b - -">Link</a> | Blitz |
-| aa175 | **Hikaru** | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2R1Nrkp/pp1P1rp1/3p4/q7/7P/1PP3P1/7K w - -">Link</a> | Blitz |
-| **Hikaru** | aa175 | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/pp1k2p1/3p3p/3n4/B2Pb3/2P1PN2/P3K1PP/2R5 b - -">Link</a> | Blitz |
-| aa175 | **Hikaru** | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3k2r/1p3p2/p3p1p1/2bp2Np/P1n4P/3NP3/1PPK2P1/R6R w kq -">Link</a> | Blitz |
-| **Hikaru** | aa175 | win 🥇 | 3/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3Q4/5kp1/3N1p2/4n2p/p1q5/2P4P/1P4P1/7K b - -">Link</a> | Blitz |
+| **Hikaru** | ChessBrainiacOnTwitch | win 🥇 | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r2q2/3b1p1k/4pP1p/2rpP2P/pp1N4/4Q3/PPP5/2KR2R1 b - -">Link</a> | Blitz |
+| ChessBrainiacOnTwitch | **Hikaru** | win 🥇 | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3k4/1P5p/3K2p1/4p3/8/5n1P/8 w - -">Link</a> | Blitz |
+| **Hikaru** | ChessBrainiacOnTwitch | win 🥇 | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=R7/7P/6r1/2p3P1/2P5/1k6/p6K/8 b - -">Link</a> | Blitz |
+| ChessBrainiacOnTwitch | **Hikaru** | win 🥇 | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5rk1/ppq2ppp/1np1pn2/4NbB1/4r3/PB6/1PP1QPPP/R3R1K1 w - -">Link</a> | Blitz |
+| **Hikaru** | ChessBrainiacOnTwitch | win 🥇 | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r2r2k1/pp3ppp/3P2q1/8/3B4/2P5/PP1nQ1PP/R3R1K1 b - -">Link</a> | Blitz |
+| ChessBrainiacOnTwitch | **Hikaru** | win 🥇 | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1R3N2/5kp1/5n2/6p1/4r3/8/5K2/8 w - -">Link</a> | Blitz |
+| **Hikaru** | Oleksandr_Bortnyk | win 🥇 | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/2p1PR2/1b6/6pB/8/6P1/6K1/4r3 b - -">Link</a> | Blitz |
+| Oleksandr_Bortnyk | **Hikaru** | checkmated ❌ | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r1rk1Q1/p4R2/8/5p2/2B5/2P5/6PK/2q5 b - -">Link</a> | Blitz |
+| **Hikaru** | Oleksandr_Bortnyk | win 🥇 | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4Q2k/8/7p/7p/1K4P1/8/8/5R2 b - -">Link</a> | Blitz |
+| Oleksandr_Bortnyk | **Hikaru** | repetition ⏸️ | 5/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6p1/1n1k4/p5p1/P1pK2P1/2P2P2/2B5/8 w - -">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
