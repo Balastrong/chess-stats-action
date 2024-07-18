@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2762 | 3227 | 3250 |
+| Current | 2780 | 3227 | 3250 |
 | Best | 2927 | 3405 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| VladimirKramnik | **Hikaru** | repetition ⏸️ | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1kp1R3/npp1prr1/p6p/P1P5/1P2RP2/6PB/5K2 w - -">Link</a> | Rapid |
+| **Hikaru** | FabianoCaruana | repetition ⏸️ | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1b1kb1r/ppp2ppp/3q4/8/P2Q4/8/1PP2PPP/RNB2RK1 w kq -">Link</a> | Rapid |
+| BillieKimbah | **Hikaru** | win 🥇 | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7R/kp6/6p1/P4p2/8/3PP2p/r6r/4R1K1 w - -">Link</a> | Rapid |
+| **Hikaru** | lachesisQ | repetition ⏸️ | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4k1p1/7p/q2p1Q2/5P2/8/6PK/8 w - -">Link</a> | Rapid |
+| moro182 | **Hikaru** | win 🥇 | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/3n2p1/r2r3p/pp2pQ2/2b1P3/P3B1P1/6BP/3qR1K1 w - -">Link</a> | Rapid |
+| **Hikaru** | vladislavkovalev | win 🥇 | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7k/1R4R1/7p/8/4n1P1/1p2P3/1r3P2/6K1 w - -">Link</a> | Rapid |
+| Oleksandr_Bortnyk | **Hikaru** | repetition ⏸️ | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7q/4rpk1/5b1p/p2B1PpQ/2P5/7R/P4PKP/8 w - -">Link</a> | Rapid |
+| **Hikaru** | MashaPutina1985 | win 🥇 | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7R/3r1kP1/5B2/3b2P1/5K2/8/8/8 b - -">Link</a> | Rapid |
+| tjallkompall | **Hikaru** | win 🥇 | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r1k1r/1p2bpp1/p4n1p/P2pBN2/4q3/3Q3P/1P3PP1/2R3K1 w - -">Link</a> | Rapid |
 | **Hikaru** | HamedWafa4 | win 🥇 | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r1rk3/p1Rq1p1p/1p2pQp1/3bB3/8/P3PP2/5P1P/4K1R1 b - -">Link</a> | Blitz |
-| penguingm1 | **Hikaru** | win 🥇 | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2k4r/1p6/pR1pNr2/P1nP3p/2P1n2P/8/2K1B3/1R6 w - -">Link</a> | Blitz |
-| **Hikaru** | DominguezOnYoutube | win 🥇 | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6pk/b3p3/p2P4/1n6/1P3BP1/1Pr5/R1BR2K1 b - -">Link</a> | Blitz |
-| Byniolus | **Hikaru** | win 🥇 | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1kr5/8/1p2N2p/1P6/1qr5/3Q2P1/P1p1RP2/2R3K1 w - -">Link</a> | Blitz |
-| **Hikaru** | Firouzja2003 | checkmated ❌ | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/1R4Qp/2pb2p1/3k4/3p3P/P5q1/6K1 w - -">Link</a> | Blitz |
-| MITerryble | **Hikaru** | win 🥇 | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4R3/5B1r/3k4/1pp2p2/3n2pp/3P3P/1P4K1/8 w - -">Link</a> | Blitz |
-| **Hikaru** | Andrei_Skvortsov | win 🥇 | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2rq1rk1/1RR1n3/4p1Q1/3pP2p/3P4/5N1P/5PP1/6K1 b - -">Link</a> | Blitz |
-| JanistanTV | **Hikaru** | win 🥇 | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2r2pkp/1p2p1p1/1P3n2/1R1R4/2r2PKP/4B1P1/8 w - -">Link</a> | Blitz |
-| K_A_S_T_O_R | **Hikaru** | resigned ❌ | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/6Kp/1k4p1/4R1P1/4n3/8/8 b - -">Link</a> | Blitz |
-| **Hikaru** | Alex_Sahakyan2006 | win 🥇 | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/p2P1pk1/1b4pp/4R3/8/6PP/5P1K/8 b - -">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
