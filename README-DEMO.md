@@ -9,11 +9,13 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2780 | 3227 | 3250 |
+| Current | 2768 | 3227 | 3250 |
 | Best | 2927 | 3405 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| Annawel | **Hikaru** | resigned ❌ | 18/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/r6p/Pk3p2/R4p2/2K2P2/6P1/7P/8 w - -">Link</a> | Rapid |
+| **Hikaru** | Annawel | repetition ⏸️ | 18/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k2r1r1/1p2bp2/pN1pp1n1/B6n/2P1P2p/1P3P1P/P3N1R1/3R1K2 w - -">Link</a> | Rapid |
 | VladimirKramnik | **Hikaru** | repetition ⏸️ | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1kp1R3/npp1prr1/p6p/P1P5/1P2RP2/6PB/5K2 w - -">Link</a> | Rapid |
 | **Hikaru** | FabianoCaruana | repetition ⏸️ | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1b1kb1r/ppp2ppp/3q4/8/P2Q4/8/1PP2PPP/RNB2RK1 w kq -">Link</a> | Rapid |
 | BillieKimbah | **Hikaru** | win 🥇 | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7R/kp6/6p1/P4p2/8/3PP2p/r6r/4R1K1 w - -">Link</a> | Rapid |
@@ -22,8 +24,6 @@ The content genrated by the action starts here:
 | **Hikaru** | vladislavkovalev | win 🥇 | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7k/1R4R1/7p/8/4n1P1/1p2P3/1r3P2/6K1 w - -">Link</a> | Rapid |
 | Oleksandr_Bortnyk | **Hikaru** | repetition ⏸️ | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7q/4rpk1/5b1p/p2B1PpQ/2P5/7R/P4PKP/8 w - -">Link</a> | Rapid |
 | **Hikaru** | MashaPutina1985 | win 🥇 | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7R/3r1kP1/5B2/3b2P1/5K2/8/8/8 b - -">Link</a> | Rapid |
-| tjallkompall | **Hikaru** | win 🥇 | 17/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r1k1r/1p2bpp1/p4n1p/P2pBN2/4q3/3Q3P/1P3PP1/2R3K1 w - -">Link</a> | Rapid |
-| **Hikaru** | HamedWafa4 | win 🥇 | 16/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r1rk3/p1Rq1p1p/1p2pQp1/3bB3/8/P3PP2/5P1P/4K1R1 b - -">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
