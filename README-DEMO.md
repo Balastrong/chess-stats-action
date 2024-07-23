@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2774 | 3230 | 3236 |
+| Current | 2769 | 3227 | 3236 |
 | Best | 2927 | 3405 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | I_now_Know_my_Name | win 🥇 | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3Q3k/4p2p/1p2Pr1q/8/2P5/1P5P/5R1K b - -">Link</a> | Blitz |
-| I_now_Know_my_Name | **Hikaru** | win 🥇 | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4k2r/1p6/4P1p1/p4p2/P2Qp3/1P6/2K1R3/2q4r w - -">Link</a> | Blitz |
-| **Hikaru** | I_now_Know_my_Name | win 🥇 | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=rn1r3k/1p3p2/2pP1bPp/p3p3/8/2PQ1N2/qPB2PP1/2KRR3 b - -">Link</a> | Blitz |
-| Prizant_academy | **Hikaru** | win 🥇 | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1p6/pP2kpp1/P3p2p/2N1Pn1P/6P1/3Q1PqK/8 w - -">Link</a> | Blitz |
-| **Hikaru** | Prizant_academy | win 🥇 | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5pRk/5r1p/1P3b2/4pP1n/P1Q1P3/qB2B2P/4K3 b - -">Link</a> | Blitz |
-| Prizant_academy | **Hikaru** | win 🥇 | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/7p/8/6k1/5qPN/7K w - -">Link</a> | Blitz |
-| **Hikaru** | Prizant_academy | win 🥇 | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1R4bk/2n1q1pp/p2N4/P3Qp2/2P4P/5PP1/6K1 b - -">Link</a> | Blitz |
-| Prizant_academy | **Hikaru** | resigned ❌ | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1p1P1k2/p1p2pN1/P6p/1n2P2P/6P1/5P2/5K2 b - -">Link</a> | Blitz |
-| **Hikaru** | Prizant_academy | win 🥇 | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/4kP2/2KN4/8/8/8 b - -">Link</a> | Blitz |
-| Prizant_academy | **Hikaru** | win 🥇 | 21/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3R4/7k/5pp1/1pP1q2p/rN2P3/2Q4P/1P2n1P1/6K1 w - -">Link</a> | Blitz |
+| **Hikaru** | DanielNaroditsky | win 🥇 | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r5/1q3kp1/p4b2/4PQ2/3N3p/BP6/P7/1K1R4 b - -">Link</a> | Blitz |
+| DanielNaroditsky | **Hikaru** | win 🥇 | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r3r/5pkp/4pp2/N7/1Q6/2PB4/P1P3q1/2K1n3 w - -">Link</a> | Blitz |
+| **Hikaru** | DanielNaroditsky | win 🥇 | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5R2/4p2k/1pBrP1p1/1P1pQ2n/P6P/2P3PK/3q4 w - -">Link</a> | Blitz |
+| DanielNaroditsky | **Hikaru** | checkmated ❌ | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/1N6/2K5/8/8/7R/2k4Q b - -">Link</a> | Blitz |
+| **Hikaru** | DanielNaroditsky | win 🥇 | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/7k/4p2P/pb2N1P1/8/3p4/PP1K4/8 b - -">Link</a> | Blitz |
+| DanielNaroditsky | **Hikaru** | resigned ❌ | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/1p2Pk2/p1p3p1/P1K5/1P2R1Pp/7P/8/8 b - -">Link</a> | Blitz |
+| **Hikaru** | DanielNaroditsky | timevsinsufficient ⏸️ | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/4n3/8/3p4/3K4/5k2/8 b - -">Link</a> | Blitz |
+| DanielNaroditsky | **Hikaru** | agreed ⏸️ | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/5p1p/5p2/8/8/2P5/2r3PP/4R1K1 w - -">Link</a> | Blitz |
+| Grischuk | **Hikaru** | resigned ❌ | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2b5/7p/1P1k1p2/2N1p3/2K1P1p1/5P2/6PP/8 b - -">Link</a> | Rapid |
+| Grischuk | **Hikaru** | agreed ⏸️ | 22/7/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r6/6pk/4p1qp/1r2P3/3R4/3QP2P/6PK/2R5 b - -">Link</a> | Rapid |
 
 <!--END_SECTION:chessStats-->
 
