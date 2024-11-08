@@ -14,6 +14,8 @@ The content genrated by the action starts here:
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| **Hikaru** | tal-BOT | win 🥇 | 7/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r3k1/1p3pQ1/1q2bPp1/3pPp2/1p1P4/r3B1P1/5PK1/R7 b - - 1 27">Link</a> | Daily |
+| tal-BOT | **Hikaru** | win 🥇 | 7/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6qK/5k2/8/8/8/6p1/8 w - - 10 51">Link</a> | Daily |
 | LiamPutnam2008 | **Hikaru** | resigned ❌ | 6/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1Q3k1p/n5p1/2B2p2/2K5/5P1P/8/8 b - -">Link</a> | Blitz |
 | **Hikaru** | LiamPutnam2008 | win 🥇 | 6/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2kr4/2p2p1p/p4p2/2b2Rr1/4PN2/1PPp1KP1/P2P3P/4R3 b - -">Link</a> | Blitz |
 | LiamPutnam2008 | **Hikaru** | win 🥇 | 6/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5p2/p6p/2Bp1b2/3P2k1/6P1/8/5K2 w - -">Link</a> | Blitz |
@@ -22,8 +24,6 @@ The content genrated by the action starts here:
 | **Hikaru** | LiamPutnam2008 | win 🥇 | 6/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3bk3/8/2p1p2p/p1p4P/P1P2PN1/1P2K3/8/8 b - -">Link</a> | Blitz |
 | LiamPutnam2008 | **Hikaru** | win 🥇 | 6/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/5nK1/8/8/1N4kp/p7/8 w - -">Link</a> | Blitz |
 | **Hikaru** | LiamPutnam2008 | win 🥇 | 6/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2rr1k2/p4p1p/b5p1/5NN1/2p5/P1QnP2P/5PP1/R2R2K1 b - -">Link</a> | Blitz |
-| LiamPutnam2008 | **Hikaru** | win 🥇 | 6/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5pk1/p2p2p1/2pP3p/P1n1P3/4Q1PP/2q1B1K1/8 w - -">Link</a> | Blitz |
-| **Hikaru** | LiamPutnam2008 | win 🥇 | 6/11/2024 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=B2q1rk1/p1pb1pbp/3p1np1/8/8/1P2PQ2/PBP2PPP/RN2K2R b KQ -">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
