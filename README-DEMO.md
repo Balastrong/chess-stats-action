@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2805 | 3322 | 3265 |
+| Current | 2805 | 3329 | 3303 |
 | Best | 2927 | 3405 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | mishanick | resigned ❌ | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1k6/3p4/pp6/1p2R3/5PK1/q7/8 w - - 0 44">Link</a> | Blitz |
-| moro182 | **Hikaru** | win 🥇 | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1q1r3k/p2b2p1/P6r/2p1p1b1/3nP1Q1/6PB/1P3B1P/3RR1K1 w - - 3 31">Link</a> | Blitz |
-| **Hikaru** | ChristopherYoo | win 🥇 | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3Q2k1/8/6K1/8/8/8/8/8 b - - 7 75">Link</a> | Blitz |
-| Jospem | **Hikaru** | win 🥇 | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/2P2p2/8/5k2/6p1/6P1/4q1K1 w - - 0 73">Link</a> | Blitz |
-| **Hikaru** | Gianmarco_es | win 🥇 | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r5k1/4n1pp/1p2qpn1/2p2P1N/2P1P1P1/3Q3P/1P6/2KR2B1 b - - 0 24">Link</a> | Blitz |
-| dropstoneDP | **Hikaru** | win 🥇 | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/3k1K2/8/4p3/7p/6bR w - - 0 57">Link</a> | Blitz |
-| **Hikaru** | Nab_c | win 🥇 | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3R1Q2/6k1/4K3/1p4P1/8/1r6/3p4/8 b - - 0 40">Link</a> | Blitz |
-| KnightDuta | **Hikaru** | win 🥇 | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r3rk1/p2b2b1/3ppppp/2p5/6P1/1PNP1N1P/1q3KB1/8 w - - 2 32">Link</a> | Blitz |
-| **Hikaru** | Vaathi_Coming | resigned ❌ | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2k1r1qb/ppp4p/8/5PP1/3p3P/1b1n2N1/PP1B1P2/R2K2QB w Q - 2 20">Link</a> | Blitz |
-| Bastiandash | **Hikaru** | win 🥇 | 28/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r5k1/4pp1p/3p2p1/n2P4/1Q2P3/rP1q1PP1/1R4P1/1K2R2B w - - 3 28">Link</a> | Blitz |
+| **Hikaru** | MolecularChemist | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7r/6k1/3p1pp1/7q/2P1Q1p1/1P2P1P1/P4P2/3R2K1 b - - 3 32">Link</a> | Blitz |
+| MolecularChemist | **Hikaru** | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1b6/8/p1N1K3/P7/4r3/6k1/8/3R4 w - - 7 57">Link</a> | Blitz |
+| **Hikaru** | MolecularChemist | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=b7/5pk1/6p1/7p/2B1PP1P/2R2PK1/1r6/8 b - - 0 55">Link</a> | Blitz |
+| MolecularChemist | **Hikaru** | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/pq4bk/6Rp/Qp2n3/5NK1/P3B1P1/1P3P2/7r w - - 9 35">Link</a> | Blitz |
+| **Hikaru** | Mysterio47 | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3rk2r/pp2PNpb/7p/P1p4n/3p1B2/1P1P3B/2P5/R4RK1 b - - 0 30">Link</a> | Blitz |
+| Mysterio47 | **Hikaru** | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/q4p1k/6p1/p2Q4/1p3P1P/6PK/8/8 w - - 2 55">Link</a> | Blitz |
+| alexrustemov | **Hikaru** | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5k2/5p2/3P2p1/2bP2P1/5P2/1P3b1r/2Q4P/3N3K w - - 1 40">Link</a> | Blitz |
+| **Hikaru** | alexrustemov | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r1k1/1R3pp1/p1p5/2Pp4/P2P2p1/4R1P1/5P1P/4rBK1 b - - 1 28">Link</a> | Blitz |
+| MidnightHorizon | **Hikaru** | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k5r/1P4K1/5p2/7p/4B1nP/8/8/q7 w - - 2 53">Link</a> | Blitz |
+| **Hikaru** | MidnightHorizon | win 🥇 | 29/3/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/2R3p1/5pB1/8/7P/1pn1P3/5PPK/3r4 b - - 5 36">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
