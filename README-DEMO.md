@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2834 | 3380 | 3343 |
+| Current | 2839 | 3365 | 3343 |
 | Best | 2927 | 3416 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| **Hikaru** | GHANDEEVAM2003 | win 🥇 | 1/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/8/8/6K1/5PP1/8/8/8 b - - 0 92">Link</a> | Rapid |
+| GHANDEEVAM2003 | **Hikaru** | resigned ❌ | 1/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7k/6p1/pp5p/2bQ4/8/1PK2Nq1/PB1R2P1/5r2 b - - 10 33">Link</a> | Rapid |
+| **Hikaru** | GHANDEEVAM2003 | win 🥇 | 1/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/R4k2/5p1P/1b3Pp1/1P4K1/8/8 b - - 2 80">Link</a> | Rapid |
+| GHANDEEVAM2003 | **Hikaru** | win 🥇 | 1/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k2r3/p3P1p1/Pp6/1p1N2P1/3n1P2/8/KP3P2/8 w - - 1 47">Link</a> | Rapid |
+| **Hikaru** | GHANDEEVAM2003 | repetition ⏸️ | 1/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r4r2/p4pk1/Qp1Np1pp/4P3/4PPnP/3p2P1/P3q1BK/2R3R1 w - - 11 29">Link</a> | Rapid |
+| GHANDEEVAM2003 | **Hikaru** | resigned ❌ | 1/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/RP3pkp/5p1b/4p3/P7/4P3/4KPPP/1r6 b - - 0 34">Link</a> | Rapid |
+| **Hikaru** | tvjosue | abandoned  | 1/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3kb1r/1pqn1p1p/2p1pnp1/p7/2p1PP1N/PP1P2P1/1B1NQ2P/R3K2R w KQkq - 0 14">Link</a> | Blitz |
 | MagnusCarlsen | **Hikaru** | resigned ❌ | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1R3b1k/8/3pB1Qp/2pP2p1/2bp4/5qPP/5P2/6K1 b - - 4 43">Link</a> | Rapid |
 | **Hikaru** | MagnusCarlsen | win 🥇 | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=q5k1/5pp1/7p/4P3/2pQ1P2/8/3R1P1P/r4NK1 b - - 2 39">Link</a> | Rapid |
 | MagnusCarlsen | **Hikaru** | repetition ⏸️ | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/6pp/2p2p2/R7/1rP2KP1/5P2/7P/8 w - - 9 32">Link</a> | Rapid |
-| **Hikaru** | MagnusCarlsen | resigned ❌ | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5ppk/7p/P6P/6Q1/3q2P1/1p1r1P2/4R1K1 w - - 2 38">Link</a> | Rapid |
-| MagnusCarlsen | **Hikaru** | win 🥇 | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=b7/7k/1p1p3p/bPpPp2P/2P1Pq1N/3K1B2/5P2/7R w - - 1 40">Link</a> | Rapid |
-| **Hikaru** | MagnusCarlsen | repetition ⏸️ | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3k4/2n3pp/1NRb1p2/1P2p3/4P3/2Br2P1/5PKP/8 w - - 15 44">Link</a> | Rapid |
-| MagnusCarlsen | **Hikaru** | resigned ❌ | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4k3/6p1/6n1/P3P1N1/4K3/1P6/8 b - a3 0 48">Link</a> | Rapid |
-| **Hikaru** | LevonAronian | win 🥇 | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3rq3/p2r2kp/1p2nppQ/8/4p1N1/P4P2/1P4PP/3RR1K1 b - - 1 26">Link</a> | Rapid |
-| LevonAronian | **Hikaru** | resigned ❌ | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7r/R1p2Pp1/1pk4p/2p5/2b2NPb/5P1P/1PPB2K1/8 w - - 1 28">Link</a> | Rapid |
-| **Hikaru** | LevonAronian | win 🥇 | 31/7/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5p1k/3P2p1/2Q4p/8/1q2P1P1/5PP1/6K1 b - - 0 41">Link</a> | Rapid |
 
 <!--END_SECTION:chessStats-->
 
