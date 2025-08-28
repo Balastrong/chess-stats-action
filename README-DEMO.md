@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2839 | 3356 | 3313 |
+| Current | 2839 | 3372 | 3313 |
 | Best | 2927 | 3431 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | nightingaleblade | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r6r/p1Q5/1p3Np1/6q1/P2p3k/7P/1P4PK/5R2 b - - 1 35">Link</a> | Blitz |
-| nightingaleblade | **Hikaru** | win 🥇 | 26/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5k2/5pb1/2N1p1pp/4P3/4B1P1/7P/p3K3/8 w - - 0 45">Link</a> | Blitz |
-| **Hikaru** | nightingaleblade | win 🥇 | 26/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r2nk2r/1ppb1pb1/p4q2/1P2PNp1/P5P1/3B3p/2N2P1P/R2QR1K1 b kq - 0 20">Link</a> | Blitz |
-| nightingaleblade | **Hikaru** | win 🥇 | 26/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3k3/ppp1pR2/2np1bp1/6N1/2PP2n1/1PN1P1P1/PB5r/R5K1 w q - 1 18">Link</a> | Blitz |
-| **Hikaru** | nightingaleblade | win 🥇 | 26/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3q1r2/p1rp1p1k/1pn1pP1p/8/5Q2/P6R/1P3PPP/5RK1 b - - 2 26">Link</a> | Blitz |
-| nightingaleblade | **Hikaru** | win 🥇 | 26/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r6/6k1/1r6/pNp2p2/P1PpPq1p/1P2b2P/2Q3P1/1R1R1K2 w - - 1 39">Link</a> | Blitz |
-| **Hikaru** | nightingaleblade | win 🥇 | 26/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/1N3ppp/p1p2nb1/8/4P3/5P2/PP4PP/3B2K1 b - - 0 26">Link</a> | Blitz |
-| nightingaleblade | **Hikaru** | win 🥇 | 26/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3k2r/1p1n1p1p/p4np1/2bpq3/3N3P/2NQ2P1/PPP1P1B1/R4R1K b kq - 4 15">Link</a> | Blitz |
-| **Hikaru** | nightingaleblade | win 🥇 | 26/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r2q3k/p3R1b1/1n3r1p/R2p1Bp1/2pP2P1/Q1P2N2/1P3PP1/6K1 w - - 4 26">Link</a> | Blitz |
-| FabianoCaruana | **Hikaru** | repetition ⏸️ | 26/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5n2/1p1q2k1/1QpPbpp1/2B1p2p/4P2P/6P1/5P1K/5B2 b - - 12 46">Link</a> | Blitz |
+| **Hikaru** | KnightKingSoham | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r2/3q1P2/1p4k1/4p1R1/p1PbP1Bp/7P/2Q3K1/8 b - - 0 56">Link</a> | Blitz |
+| **Hikaru** | TheBrainCrusher | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r1k1/3q3p/p3rBp1/1pnp3P/5R2/P2PP1R1/2P2QP1/6K1 b - - 0 29">Link</a> | Blitz |
+| TheBrainCrusher | **Hikaru** | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r2q1rk1/1b3pb1/pp3npp/3P4/P3p3/1PQB1NN1/5PPP/R4RK1 w - - 0 19">Link</a> | Blitz |
+| **Hikaru** | TheBrainCrusher | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r5k1/ppp2ppp/2pqrn2/8/6b1/1P2P1NP/PBPP1QP1/R4RK1 b - - 0 16">Link</a> | Blitz |
+| TheBrainCrusher | **Hikaru** | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r3k1/4pp1p/3p2p1/pN6/P3P3/1n2qP2/1Q4PP/3R3K w - - 4 40">Link</a> | Blitz |
+| RodTwinkz | **Hikaru** | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1R6/8/8/7p/7P/8/kp4K1/3r4 w - - 18 60">Link</a> | Blitz |
+| **Hikaru** | RodTwinkz | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7r/8/1kP5/6R1/7P/5BPK/3r4/8 b - - 10 62">Link</a> | Blitz |
+| **Hikaru** | SaySpade4VIP | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1kn2b2/1pp5/p4B2/3P4/PP2P3/3N1Q2/4KP2/2R3qr b - - 8 33">Link</a> | Blitz |
+| SaySpade4VIP | **Hikaru** | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r4/2p2p2/2k1pP2/PpNr4/1P4p1/2P2nPp/4RP1P/2R4K w - - 9 40">Link</a> | Blitz |
+| **Hikaru** | SaySpade4VIP | win 🥇 | 27/8/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4k3/1p1r1p2/1n2p2p/1Pp1Pb2/2P1NP1b/PBB1K3/7P/2R5 b - - 4 41">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
