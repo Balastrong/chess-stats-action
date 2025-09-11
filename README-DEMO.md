@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2839 | 3376 | 3313 |
+| Current | 2839 | 3377 | 3313 |
 | Best | 2927 | 3431 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| Jospem | **Hikaru** | win 🥇 | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r5k1/pp1n1p1p/2p1b1B1/8/8/2b3P1/P3PP1P/7K w - - 3 20">Link</a> | Blitz |
-| **Hikaru** | Kowarenai | win 🥇 | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5k2/4np1p/5N1P/6P1/5PK1/8/8 b - - 7 60">Link</a> | Blitz |
-| **Hikaru** | alexrustemov | win 🥇 | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3r1pk1/3bp1p1/p2P1nP1/2p2P2/2P2Q2/Pr3B1P/2R2RK1 b - - 0 31">Link</a> | Blitz |
-| **Hikaru** | Germanovs_Georgijs | win 🥇 | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3k4/8/R3P1p1/5bP1/5K2/8/8 w - - 0 55">Link</a> | Blitz |
-| KevinGeorgeMicheal | **Hikaru** | win 🥇 | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3rkp2/1p1R4/2pKr1p1/2P2bPp/RB5P/p7/8 w - - 0 51">Link</a> | Blitz |
-| **Hikaru** | rezamahdavi2008 | win 🥇 | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4rr2/pb1p2kp/n2n4/1p1P1p2/Pqp5/B4P2/3NB1PP/R2Q1R1K b - - 1 20">Link</a> | Blitz |
-| **Hikaru** | KevinGeorgeMicheal | win 🥇 | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1b1q2k/pp5p/2p3p1/3pb3/7P/3P2Q1/PPP2PP1/R1BKR3 b - - 3 22">Link</a> | Blitz |
-| teresin05 | **Hikaru** | win 🥇 | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/2p5/P4p2/1Kp2k2/8/1P6/6q1 w - - 0 53">Link</a> | Blitz |
-| rezamahdavi2008 | **Hikaru** | resigned ❌ | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6r1/p2P4/Rn3kp1/1q1p1pQp/2pP3P/2P2P2/6P1/R5K1 b - - 2 41">Link</a> | Blitz |
-| **Hikaru** | artooon | win 🥇 | 9/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4b2P/6K1/3k4/7R/8/8/8 b - - 2 84">Link</a> | Blitz |
+| **Hikaru** | morphy1984 | win 🥇 | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4b1k1/2r2pbp/6p1/1pPNq3/1P1p3P/6P1/5PB1/3QR1K1 b - - 1 32">Link</a> | Blitz |
+| morphy1984 | **Hikaru** | win 🥇 | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r4r/p4k2/P2bpn2/q2p1b2/2pP1Ppp/1pP1B1P1/1P1N3P/3QRBK1 w - - 0 32">Link</a> | Blitz |
+| **Hikaru** | morphy1984 | win 🥇 | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1R6/4qpb1/1RN2nk1/3pr2p/5Qp1/3PP1P1/5PK1/8 b - - 3 33">Link</a> | Blitz |
+| morphy1984 | **Hikaru** | win 🥇 | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4k3/q2nbp2/4p1b1/N2pP3/1Np2P2/6pr/QPPB2P1/5R1K w - - 0 26">Link</a> | Blitz |
+| **Hikaru** | morphy1984 | win 🥇 | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r2qr2/p2bNkb1/1p1p2B1/2p2p2/1PP4Q/P2P3P/4N3/1R3RK1 b - - 0 31">Link</a> | Blitz |
+| morphy1984 | **Hikaru** | win 🥇 | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r2/p1k5/6p1/N1nBpp1p/8/K2p2PP/2p5/2R5 w - - 0 40">Link</a> | Blitz |
+| **Hikaru** | morphy1984 | resigned ❌ | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k1r3r/ppp2p1p/8/2b2Qp1/3n2n1/1PN2NPq/PB2PP1P/R4RK1 w - - 7 22">Link</a> | Blitz |
+| morphy1984 | **Hikaru** | win 🥇 | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4k3/8/pp6/3p3R/3q4/1P6/P1P2p1B/1K6 w - - 0 47">Link</a> | Blitz |
+| **Hikaru** | JoeAssaad | agreed ⏸️ | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1q5k/6pp/6p1/p3p1P1/P1N4P/1P1PPr2/1KP5/8 b - - 1 37">Link</a> | Blitz |
+| JoeAssaad | **Hikaru** | win 🥇 | 10/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5R2/1k1r2Qp/2b1p3/p2q4/6pN/3p4/PP4PP/6K1 w - - 6 37">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
