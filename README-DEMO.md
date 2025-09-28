@@ -14,6 +14,7 @@ The content genrated by the action starts here:
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| **Hikaru** | lugwid | win 🥇 | 27/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4Bk2/p4n2/1p3rp1/7p/2p5/2P1R3/PP2K1PP/8 b - - 2 34">Link</a> | Blitz |
 | **Hikaru** | Dr_Tyger | win 🥇 | 26/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=k7/8/NK6/8/4B3/8/8/8 b - - 7 98">Link</a> | Blitz |
 | Oleksandr_Bortnyk | **Hikaru** | win 🥇 | 26/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/2P1bp2/p7/4N3/1P6/1K4k1/7q w - - 0 55">Link</a> | Blitz |
 | **Hikaru** | Polish_fighter3000 | resigned ❌ | 26/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2p5/1pP1p3/k2b2b1/p2P2P1/P6P/1K6/8 w - - 0 43">Link</a> | Blitz |
@@ -23,7 +24,6 @@ The content genrated by the action starts here:
 | **Hikaru** | GHANDEEVAM2003 | agreed ⏸️ | 26/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2k5/1p5p/6p1/P4p2/3B4/3KPbPP/P7/8 b - - 0 56">Link</a> | Blitz |
 | Jospem | **Hikaru** | repetition ⏸️ | 26/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3R4/p6p/5p2/8/2k5/7P/P2n1KP1/5r2 w - - 10 52">Link</a> | Blitz |
 | **Hikaru** | howitzer14 | win 🥇 | 26/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1q1k4/p3r2b/2pN3p/Qp2P1p1/5p2/1Pnp4/P5PP/3RR2K b - - 1 27">Link</a> | Blitz |
-| Turboplombir | **Hikaru** | win 🥇 | 26/9/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/4p1pp/5p2/8/p3bPP1/2R4P/2pq1K2/N1R1N3 w - - 1 43">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
