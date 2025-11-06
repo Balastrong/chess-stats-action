@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2839 | 3360 | 3288 |
+| Current | 2839 | 3370 | 3288 |
 | Best | 2927 | 3431 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | Gabix_94 | resigned ❌ | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/p1r2pp1/2B1n3/7Q/6p1/B7/P4PPP/1q2K2R w - - 0 26">Link</a> | Blitz |
-| Gabix_94 | **Hikaru** | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/7p/N1p2p1k/2Np2p1/1R1P2PK/5q1P/5P2/8 w - - 0 49">Link</a> | Blitz |
-| **Hikaru** | Gabix_94 | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6R1/8/8/8/KP6/8/3k4/8 b - - 0 69">Link</a> | Blitz |
-| Gabix_94 | **Hikaru** | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4k3/6p1/3pn1Pp/B2N2r1/2P4K/8/8 w - - 0 62">Link</a> | Blitz |
-| **Hikaru** | Gabix_94 | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2r3k1/5pp1/4p3/7P/1Q2PP2/5PK1/8 b - - 0 40">Link</a> | Blitz |
-| Gabix_94 | **Hikaru** | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/1R4p1/6b1/p7/P1n2K2/8/1p3P2/8 w - - 0 42">Link</a> | Blitz |
-| **Hikaru** | Gabix_94 | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4k3/p4R2/2n1pNn1/2p3N1/4P3/1P5P/P2r2P1/6K1 b - - 2 36">Link</a> | Blitz |
-| Gabix_94 | **Hikaru** | resigned ❌ | 4/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1q2r2/pppnRpk1/3p4/3P3Q/2P2P2/6B1/P4P1P/1R5K w - - 1 30">Link</a> | Blitz |
-| **Hikaru** | Gabix_94 | checkmated ❌ | 4/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/8/5k1p/5q2/5K2/2r5 w - - 0 88">Link</a> | Blitz |
-| ArtemyKhan | **Hikaru** | win 🥇 | 4/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r5k1/1p4b1/6P1/1N1Pp1P1/2P1P1p1/p2n1r2/P1BBQ3/q2K3R w - - 9 37">Link</a> | Blitz |
+| **Hikaru** | ShadowKing71 | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4K3/4RP2/7r/p2kP3/P7/8/8/8 b - - 0 66">Link</a> | Blitz |
+| ShadowKing71 | **Hikaru** | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1p4kp/6p1/4p3/pP1pP3/P2Pn1NP/Q2B1qPK/8 w - - 1 42">Link</a> | Blitz |
+| **Hikaru** | ShadowKing71 | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1r3k1/3R1p1p/p4Qp1/8/8/2N4P/1q3PP1/4R1K1 b - - 1 24">Link</a> | Blitz |
+| ShadowKing71 | **Hikaru** | repetition ⏸️ | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/4pPk1/p1p1P2p/3p1K2/1P1P2P1/P1R5/4r3 b - - 13 53">Link</a> | Blitz |
+| **Hikaru** | ShadowKing71 | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r4rk1/pp3p2/2p2RnQ/2p4p/2P3qP/1P2P3/P2P2P1/B4RK1 b - - 7 28">Link</a> | Blitz |
+| ShadowKing71 | **Hikaru** | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1B6/Pk6/5r2/8/4K3/7p/8/8 w - - 0 85">Link</a> | Blitz |
+| **Hikaru** | ShadowKing71 | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5rrk/p1p4p/1bR5/4q3/1P3N2/P3P1P1/5P1P/Q4RK1 b - - 1 28">Link</a> | Blitz |
+| ShadowKing71 | **Hikaru** | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/pp3ppp/4p3/3pP3/1P1n4/P2R4/4QPPP/q1r2NK1 w - - 9 28">Link</a> | Blitz |
+| **Hikaru** | ShadowKing71 | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/1q3pkp/3Rpnp1/p7/P4P2/1P2P2P/1Q4P1/3R2K1 b - - 1 26">Link</a> | Blitz |
+| ShadowKing71 | **Hikaru** | win 🥇 | 5/11/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1RQ2pk1/6p1/3p1q2/P4p1K/1P3P2/7r/5R2 w - - 5 47">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
