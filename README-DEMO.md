@@ -14,16 +14,16 @@ The content genrated by the action starts here:
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| bettercallcafu | **Hikaru** | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r2k2r/6b1/3p1p2/1qn1p1pP/p3P1P1/3p4/PPQB4/1KR1N2R w k - 0 30">Link</a> | Blitz |
-| **Hikaru** | bettercallcafu | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r3rk1/pp2nppb/3R3q/4PP1p/1P2N1P1/P6P/5QB1/4R1K1 b - - 3 31">Link</a> | Blitz |
-| bettercallcafu | **Hikaru** | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2q1rb2/1p3p1k/2P3bP/1P2p1Q1/4P3/r5P1/2R2PB1/6K1 w - - 1 35">Link</a> | Blitz |
-| **Hikaru** | bettercallcafu | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/p6p/4P1p1/2p4q/P1Pp1Q2/3P1P1P/6K1/8 b - - 0 38">Link</a> | Blitz |
-| bettercallcafu | **Hikaru** | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1q1r1k1/pp1b1pbp/2np2pn/4p3/2P5/2N2NP1/PP1QPPBP/R4RK1 w - - 0 17">Link</a> | Blitz |
-| **Hikaru** | bettercallcafu | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r7/3k2p1/3b1p2/3p1P1P/pP1Pp1P1/P3P3/4K3/2R1B3 b - - 0 54">Link</a> | Blitz |
-| bettercallcafu | **Hikaru** | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6k1/p5p1/4b3/2P2qR1/1P3B2/P5K1/8 w - - 8 51">Link</a> | Blitz |
-| **Hikaru** | bettercallcafu | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=rr4k1/p1p1bppb/2Bq3p/3p4/3Pn3/PP2P3/1B1N1PPP/2RQ1RK1 b - - 0 16">Link</a> | Blitz |
-| bettercallcafu | **Hikaru** | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/4k1rp/7p/5P1B/5K2/8 w - - 2 67">Link</a> | Blitz |
-| **Hikaru** | bettercallcafu | win 🥇 | 10/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k6/3b4/1QpNnpB1/2Ppq3/8/1P4P1/P4P2/6K1 b - - 6 46">Link</a> | Blitz |
+| **Hikaru** | GZQSH07 | win 🥇 | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r5k1/p7/1p3bQ1/1bp2N2/8/1PnqP3/P5BP/5RK1 b - - 3 30">Link</a> | Blitz |
+| GZQSH07 | **Hikaru** | win 🥇 | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r4k2/2Q5/pp1p1qp1/8/P3b1n1/8/1PP3p1/2K1R3 w - - 3 30">Link</a> | Blitz |
+| **Hikaru** | GZQSH07 | win 🥇 | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/1p3p2/5r2/p5pp/3Rr1qN/PPQ1PPPn/2R3KP/8 b - - 0 35">Link</a> | Blitz |
+| GZQSH07 | **Hikaru** | win 🥇 | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3kpp2/3p2pp/4P3/6PP/1r1p4/2r5/3KR2R w - - 0 32">Link</a> | Blitz |
+| **Hikaru** | jefferyx | repetition ⏸️ | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5pk1/5r2/R7/5K2/8/8/8 w - - 12 69">Link</a> | Blitz |
+| MagnusCarlsen | **Hikaru** | resigned ❌ | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=B5k1/2B2pp1/1P2pb1p/4N3/2n2P2/Pb4P1/7P/6K1 b - - 0 33">Link</a> | Blitz |
+| **Hikaru** | ChessWarrior7197 | win 🥇 | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6r1/pp2r3/1q2b2k/2ppP3/2P4Q/1P5P/P2N2P1/5RK1 b - - 1 33">Link</a> | Blitz |
+| Konavets | **Hikaru** | win 🥇 | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r3/6k1/2N3p1/7p/1P6/2n5/8/1K1R4 w - - 1 48">Link</a> | Blitz |
+| **Hikaru** | NikoTheodorou | win 🥇 | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=R7/P7/7p/1B3pk1/8/6PK/r7/8 b - - 0 52">Link</a> | Blitz |
+| mitrabhaa | **Hikaru** | win 🥇 | 16/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r3k/1b1r2pP/p7/2p2R2/2q5/P3P2B/1RK2Q2/3n4 w - - 2 43">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
