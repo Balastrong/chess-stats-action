@@ -9,11 +9,12 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2839 | 3405 | 3358 |
+| Current | 2839 | 3406 | 3358 |
 | Best | 2927 | 3438 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| **Hikaru** | DreamsAreFake | win 🥇 | 19/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r2k1/3rn1bp/P1p1q1p1/p3pp2/4N3/P3P1P1/2QP1P1P/2RR1BK1 w - - 0 26">Link</a> | Blitz |
 | Mrlammy | **Hikaru** | win 🥇 | 18/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1b2rk1/1p4b1/p2p4/2pP4/P1P1Nppq/2QB1n2/1P3PPB/3RR1K1 w - - 4 23">Link</a> | Blitz |
 | **Hikaru** | Mrlammy | win 🥇 | 18/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3b2k1/pp2qNp1/1np2np1/4p3/1P2P2P/1Q4PB/PBP2PK1/8 b - - 0 28">Link</a> | Blitz |
 | Mrlammy | **Hikaru** | win 🥇 | 18/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=Q2R1bk1/5p1p/6p1/p3P3/5q2/7P/8/4r1K1 w - - 0 37">Link</a> | Blitz |
@@ -23,7 +24,6 @@ The content genrated by the action starts here:
 | **Hikaru** | RachelNegs | win 🥇 | 18/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r7/5bkN/1rp2pp1/2p5/2Pp3P/pPqP2PB/P3QR2/5RK1 b - - 0 31">Link</a> | Blitz |
 | RachelNegs | **Hikaru** | win 🥇 | 18/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3r1k1/8/2n1bbN1/3p4/3P4/p1P5/PP3PPP/R3R1K1 w - - 0 25">Link</a> | Blitz |
 | **Hikaru** | RachelNegs | win 🥇 | 18/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r2/1p2r1kp/2npN1pn/p5Nq/2PPPp2/PP3P2/7P/2RQ2RK b - - 4 25">Link</a> | Blitz |
-| RachelNegs | **Hikaru** | win 🥇 | 18/12/2025 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r5/2p2pk1/2npq1pp/4p3/2N3PP/1P3P2/2rN4/4K1RR w - - 0 31">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
