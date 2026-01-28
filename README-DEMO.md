@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2839 | 3412 | 3330 |
+| Current | 2839 | 3391 | 3330 |
 | Best | 2927 | 3443 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | only_strong_moves | win 🥇 | 26/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1rBb2k1/3P1p2/1p4pp/p7/1p2R3/1P2P1P1/P4P1P/6K1 b - - 1 29">Link</a> | Blitz |
-| only_strong_moves | **Hikaru** | win 🥇 | 26/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r1k2r/5pp1/2n1p3/ppbpP1Bp/3n3P/P4N2/1PP2PP1/1K1RR3 w k - 0 23">Link</a> | Blitz |
-| **Hikaru** | only_strong_moves | win 🥇 | 26/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2q2r1k/2R1nppp/1r1p2n1/4p3/2QPP3/2P1NNP1/5P1P/4R1K1 b - - 0 26">Link</a> | Blitz |
-| **Hikaru** | Xtrmntr78 | win 🥇 | 26/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5k2/5p2/7p/2pN4/8/1P2P1P1/1nK5/8 b - - 0 42">Link</a> | Blitz |
-| Xtrmntr78 | **Hikaru** | win 🥇 | 26/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/8/5pp1/5p1p/R5n1/6P1/3NP3/2r1K3 w - - 1 41">Link</a> | Blitz |
-| **Hikaru** | Andrei_Belozerov | win 🥇 | 26/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/p7/P7/2k1K1NR/7P/2nr2P1/8 b - - 0 55">Link</a> | Blitz |
-| LikeWater | **Hikaru** | win 🥇 | 25/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1q1k1nr/ppp1ppb1/2np2p1/8/3PP1b1/2P2NP1/PP3P2/RNBQR1KB w kq - 1 12">Link</a> | Bullet |
-| **Hikaru** | LikeWater | win 🥇 | 25/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5kR1/1pb1r2p/p1p5/8/1PB5/4PKP1/P6P/8 b - - 22 44">Link</a> | Bullet |
-| **Hikaru** | Tunartank | checkmated ❌ | 24/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r4/1pkb2Q1/4pN2/p2pP3/6B1/4nN1P/6q1/7K w - - 2 39">Link</a> | Bullet |
-| **Hikaru** | penguingm1 | win 🥇 | 24/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7r/4k3/4p3/2p3p1/P1NpP2r/1P3PKn/7R/7R b - - 1 49">Link</a> | Bullet |
+| Tunartank | **Hikaru** | win 🥇 | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k5r/1bq5/pp1p1p2/4p1n1/4P2n/P1NR1B1r/1PPRN1QP/7K w - - 2 32">Link</a> | Blitz |
+| **Hikaru** | Tunartank | win 🥇 | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r4/5NkP/4p1p1/pp2P3/8/P2p3R/3P3P/5K2 b - - 0 39">Link</a> | Blitz |
+| Tunartank | **Hikaru** | win 🥇 | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k6/1p6/p5p1/b2P1p2/2P5/1P4P1/4Q3/1q1K1N2 w - - 1 46">Link</a> | Blitz |
+| **Hikaru** | Tunartank | win 🥇 | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5k2/1p6/6R1/5N2/1PP1bPp1/6Pp/1r5P/5BK1 b - - 0 39">Link</a> | Blitz |
+| Tunartank | **Hikaru** | win 🥇 | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5b2/2Q2bk1/6q1/5p2/2B1p3/1P5P/6P1/7K w - - 12 44">Link</a> | Blitz |
+| **Hikaru** | Tunartank | win 🥇 | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2k5/2p1R3/2K5/1P6/4p3/3b4/8/8 b - - 4 63">Link</a> | Blitz |
+| Tunartank | **Hikaru** | resigned ❌ | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3k2R1/2p1pr2/p2p4/7r/Q2P4/1P1Bq3/K1P5/8 b - - 1 32">Link</a> | Blitz |
+| **Hikaru** | Tunartank | win 🥇 | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5rk1/ppp2p2/3p3Q/2b1qR2/2P1P3/1P4N1/P1P3PK/8 b - - 0 24">Link</a> | Blitz |
+| Tunartank | **Hikaru** | win 🥇 | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r3k1/Q3pp2/p5pp/1p1P2P1/4P2P/q2N4/P1rR4/1K6 w - - 0 30">Link</a> | Blitz |
+| **Hikaru** | Tunartank | win 🥇 | 27/1/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=k1r1R3/1ppn4/p1n3Q1/7p/2PP2p1/P2B4/1P1q1BPP/5RK1 b - - 0 32">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
