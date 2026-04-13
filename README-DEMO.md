@@ -9,11 +9,13 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2839 | 3422 | 3299 |
+| Current | 2839 | 3424 | 3299 |
 | Best | 2927 | 3454 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| **Hikaru** | morphy1984 | win 🥇 | 12/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r3k1/2p2pp1/2pp4/p7/1PP1rPbp/P3P3/5NPP/R4RK1 b - - 1 26">Link</a> | Blitz |
+| morphy1984 | **Hikaru** | win 🥇 | 12/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3k4/1p1n3R/pr2pbB1/3p4/3q4/P5N1/1P4Q1/1K6 w - - 1 29">Link</a> | Blitz |
 | **Hikaru** | NodariousBIG | win 🥇 | 11/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5Qk1/3p2pp/1p6/p3pp2/2P5/1P4P1/P3PP1P/3qR1K1 b - - 0 22">Link</a> | Blitz |
 | NodariousBIG | **Hikaru** | win 🥇 | 11/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1rr2nk1/Q4p2/6p1/3Bb2p/N7/pP5P/P1q5/K2RR3 w - - 0 32">Link</a> | Blitz |
 | morphy1984 | **Hikaru** | win 🥇 | 5/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r3r2/5p1k/p3pp2/2p4P/2p5/8/P7/K2R3R w - - 0 30">Link</a> | Blitz |
@@ -22,8 +24,6 @@ The content genrated by the action starts here:
 | **Hikaru** | morphy1984 | win 🥇 | 5/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4r1k1/1pR4p/4P3/1P1r2p1/R2p3q/1Q4NP/6PK/2B5 b - - 0 38">Link</a> | Blitz |
 | gurelediz | **Hikaru** | win 🥇 | 3/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5B2/R5pk/pp3q2/8/1P4pK/1P4P1/8 w - - 2 43">Link</a> | Blitz |
 | **Hikaru** | gurelediz | repetition ⏸️ | 3/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/5p2/p7/2p5/2Qpq1p1/1P2r1P1/5RK1/6N1 w - - 18 52">Link</a> | Blitz |
-| **Hikaru** | Init0x7A | win 🥇 | 2/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1Q6/B4pbk/6p1/5n1p/P2pP2P/6Pq/5P2/3R1RK1 b - - 0 36">Link</a> | Blitz |
-| Init0x7A | **Hikaru** | win 🥇 | 2/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5p1k/P1R3pp/1p2P3/6P1/7P/2p5/1r4K1 w - - 1 47">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
