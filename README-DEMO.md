@@ -9,11 +9,12 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2839 | 3400 | 3299 |
+| Current | 2839 | 3401 | 3299 |
 | Best | 2927 | 3454 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| **Hikaru** | FREDERICKtheMATE | win 🥇 | 22/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4k3/7P/5KP1/8/8/8/8/8 b - - 0 77">Link</a> | Blitz |
 | GMWSO | **Hikaru** | resigned ❌ | 21/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5k1r/8/3N1PQ1/q6p/4p2P/1KN3P1/2P5/8 b - - 4 47">Link</a> | Blitz |
 | **Hikaru** | Parhamov | agreed ⏸️ | 21/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/3R1p2/3P1kp1/3r3p/7P/6P1/7K/8 b - - 4 43">Link</a> | Blitz |
 | nihalsarin | **Hikaru** | insufficient ⏸️ | 21/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/k4n1K/8/8/8/8 w - - 0 63">Link</a> | Blitz |
@@ -23,7 +24,6 @@ The content genrated by the action starts here:
 | **Hikaru** | Oleksandr_Bortnyk | win 🥇 | 21/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7k/3P1p1p/pb3NpP/2nBP3/1pQ2P2/6P1/P5K1/1q6 w - - 1 41">Link</a> | Blitz |
 | LiemLe | **Hikaru** | win 🥇 | 21/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5k2/1pKR4/3P4/2P5/P4p2/8/5r2 w - - 4 73">Link</a> | Blitz |
 | **Hikaru** | Sam_ChessMood | win 🥇 | 21/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2k1KP2/4P3/8/8/8/8/5r2 b - - 0 65">Link</a> | Blitz |
-| imsuyogwaghYT | **Hikaru** | win 🥇 | 21/4/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1Q6/5pkr/3p2p1/3P1b2/1R3P1P/1B1K4/8/2q4r w - - 3 52">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
