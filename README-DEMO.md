@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2839 | 3420 | 3307 |
+| Current | 2839 | 3408 | 3307 |
 | Best | 2927 | 3454 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| Early_Morning_Coffee | **Hikaru** | win 🥇 | 11/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r4k1/R3p2p/4R1pQ/3p4/6PP/2N5/PnP1Kq2/5r2 w - - 5 34">Link</a> | Blitz |
-| **Hikaru** | Early_Morning_Coffee | win 🥇 | 11/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k1r4/pp4br/4bn2/4Q3/7p/PP1P2P1/4PPBP/4K2R b K - 2 20">Link</a> | Blitz |
-| Early_Morning_Coffee | **Hikaru** | win 🥇 | 11/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5k2/4p3/8/2p5/BrP5/Q7/PP6/K1r5 w - - 0 43">Link</a> | Blitz |
-| **Hikaru** | Early_Morning_Coffee | win 🥇 | 11/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1Q3k1/4qppp/8/p7/8/P5PP/5P2/2RR2K1 b - - 0 31">Link</a> | Blitz |
-| Early_Morning_Coffee | **Hikaru** | win 🥇 | 11/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r2rk1/pb2pp1p/1p1p2p1/7P/8/PRP4Q/2P1qPP1/3R2K1 w - - 0 22">Link</a> | Blitz |
-| **Hikaru** | Individoom | win 🥇 | 6/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r4k1/1P2Rp2/5Qp1/3q3p/3P4/7P/6P1/6K1 b - - 0 36">Link</a> | Blitz |
-| Individoom | **Hikaru** | win 🥇 | 6/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5pkp/3p4/p2P2p1/PpP2nP1/2r4P/2P2R1K/5B2 w - - 1 37">Link</a> | Blitz |
-| **Hikaru** | Individoom | win 🥇 | 6/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r3k1/pp2p1bp/5n2/3p1Bn1/3P4/1P2P3/P4PPP/1QB3K1 b - - 0 21">Link</a> | Blitz |
-| Individoom | **Hikaru** | win 🥇 | 6/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/1P6/2Rpk1p1/6P1/2P5/5PK1/1r6 w - - 1 64">Link</a> | Blitz |
-| **Hikaru** | Individoom | win 🥇 | 6/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r3bk1/q4p1p/2R3p1/pP1Bp3/P1Q1P3/7P/5PP1/6K1 b - - 2 33">Link</a> | Blitz |
+| **Hikaru** | Early_Morning_Coffee | win 🥇 | 13/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4Q1k1/pp4p1/1np5/7p/7q/1P1rPB2/P4P2/2R3K1 b - - 1 30">Link</a> | Blitz |
+| Early_Morning_Coffee | **Hikaru** | win 🥇 | 13/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1r2k2r/5pb1/1pp1p1p1/6Pp/1pBP3P/4nP1R/PPP5/2KRB3 w k - 2 21">Link</a> | Blitz |
+| **Hikaru** | Early_Morning_Coffee | win 🥇 | 13/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=R2Q4/5ppk/1q5p/1Pb4n/4B3/3P2PP/4Kp2/8 b - - 2 41">Link</a> | Blitz |
+| Early_Morning_Coffee | **Hikaru** | win 🥇 | 13/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/8/3Nb1k1/8/5B1K/7r w - - 10 62">Link</a> | Blitz |
+| **Hikaru** | Early_Morning_Coffee | win 🥇 | 13/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r2q1rk1/1pp2ppp/2npbn2/p1b1p3/2PP4/1PN1P1PP/PB2NPB1/R2QK2R b KQ d3 0 10">Link</a> | Blitz |
+| Early_Morning_Coffee | **Hikaru** | win 🥇 | 13/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1rb1k2r/p3ppb1/2pP2p1/q4n2/1p1PNP1p/2nB1N1P/PPPQ1BP1/1K1R3R w k - 1 17">Link</a> | Blitz |
+| **Hikaru** | Early_Morning_Coffee | win 🥇 | 13/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3Qr3/1p6/2p3k1/2Pp1pb1/pP4p1/P1BK4/8/4R2R b - - 0 45">Link</a> | Blitz |
+| Early_Morning_Coffee | **Hikaru** | win 🥇 | 13/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5p2/4p1p1/2k1Pr2/2pp1PKP/P6R/8/8 w - - 0 61">Link</a> | Blitz |
+| QuirkyQuokka6969 | **Hikaru** | win 🥇 | 12/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5rk1/4pb1p/3p1pp1/p1r5/3NP3/1Pq1Q1P1/P4P1P/4RBK1 w - - 3 31">Link</a> | Blitz |
+| **Hikaru** | QuirkyQuokka6969 | win 🥇 | 12/5/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5b1N/pp3kp1/2r1pp2/7P/8/2n5/PPP2P2/2KR3R b - - 0 23">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
