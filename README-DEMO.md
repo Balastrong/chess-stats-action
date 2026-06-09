@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2839 | 3412 | 3473 |
+| Current | 2839 | 3430 | 3473 |
 | Best | 2927 | 3465 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| MITerryble | **Hikaru** | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1q1k1n1/ppp1pp2/3p2p1/3Pb3/2P2P2/2N1B1P1/PP2P3/R2QRbKr w q - 0 15">Link</a> | Bullet |
-| **Hikaru** | rezamahdavi2008 | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2Q5/3r1pbk/1p4p1/2pP3p/P3P2P/1P1R1NP1/2q2PK1/8 w - - 3 33">Link</a> | Bullet |
-| TheRabbit19 | **Hikaru** | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1p6/pPp5/P1P5/8/2n1pk2/2b5/4K1q1 w - - 0 68">Link</a> | Bullet |
-| **Hikaru** | wonderfultime | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=R6R/1p1n1rpk/2p5/2P2p1P/4p3/8/2P5/7K b - - 4 38">Link</a> | Bullet |
-| **Hikaru** | penguingm1 | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r4r/3nbppk/b1B1p2p/q1p1P2P/Q1Pp1BN1/P2P2P1/3N1P2/1R2R1K1 b - - 0 23">Link</a> | Bullet |
-| MITerryble | **Hikaru** | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1b1k1nr/pp1ppp1p/6p1/q7/4P3/2bB1Q2/PP3PPP/2R2RK1 w kq - 0 12">Link</a> | Bullet |
-| **Hikaru** | mitrabhaa | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1r3k1/1pn1qpb1/1n2p2P/1PppP1p1/2P3N1/P2P2P1/2Q3B1/2BRR1K1 b - - 0 30">Link</a> | Bullet |
-| **Hikaru** | wonderfultime | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r1rk1/1p3pp1/p1b1p1np/4R2N/6Q1/1BP5/PP3PP1/7K b - - 0 26">Link</a> | Bullet |
-| penguingm1 | **Hikaru** | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7r/P3p3/3p2k1/N1pP1np1/4K3/4r3/7R/7R w - - 2 44">Link</a> | Bullet |
-| **Hikaru** | wonderfultime | win 🥇 | 6/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/1ppr1p2/1pn2Q1p/2q1p3/4P3/1BP1R2P/PP1r1PP1/R5K1 b - - 2 25">Link</a> | Bullet |
+| SparkToFlame | **Hikaru** | win 🥇 | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6r1/8/p3k1Nb/8/1P2r3/3R4/1P2p2P/6RK w - - 0 52">Link</a> | Blitz |
+| **Hikaru** | SparkToFlame | win 🥇 | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=kr6/3r2p1/p3p1bp/1N1pp3/5P2/3P2PP/2P3B1/Q6K b - - 1 41">Link</a> | Blitz |
+| SparkToFlame | **Hikaru** | win 🥇 | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r2/1p2p1kp/1qppnr2/p3p1p1/P1Q1P3/1P2R2P/2PR1PP1/5BK1 w - - 4 31">Link</a> | Blitz |
+| **Hikaru** | SparkToFlame | win 🥇 | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6k1/p5pp/4R3/1p6/2pr4/P7/BPP3PP/5K2 b - - 0 26">Link</a> | Blitz |
+| SparkToFlame | **Hikaru** | resigned ❌ | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r4k2/3npBbQ/pp1pPp2/3q4/P2P3P/4BR2/1P2r1P1/R5K1 b - - 2 25">Link</a> | Blitz |
+| **Hikaru** | SparkToFlame | win 🥇 | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/7P/8/8/2K5/8/1k6 b - - 0 69">Link</a> | Blitz |
+| SparkToFlame | **Hikaru** | win 🥇 | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r2/6bk/3p2p1/p2Npqnp/2P5/3R2B1/4QPKP/8 w - - 4 36">Link</a> | Blitz |
+| **Hikaru** | SparkToFlame | win 🥇 | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2R5/8/8/5PKp/7P/k7/8/5r2 b - - 4 68">Link</a> | Blitz |
+| SparkToFlame | **Hikaru** | win 🥇 | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6k1/7p/8/3P4/2n5/1prN1PP1/4RK2 w - - 1 39">Link</a> | Blitz |
+| **Hikaru** | rapidman01 | win 🥇 | 8/6/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r2qr1k1/1b2ppbp/2p3p1/2R5/3Pp3/4P3/1B1NBPPP/3QK2R b K - 0 17">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
