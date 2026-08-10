@@ -9,8 +9,8 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | No Rating | No Rating | No Rating |
-| Best | No Rating | No Rating | No Rating |
+| Current | 2839 | 3453 | 3348 |
+| Best | 2927 | 3469 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
