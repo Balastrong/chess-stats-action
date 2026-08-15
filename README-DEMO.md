@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2847 | 3410 | 3348 |
+| Current | 2822 | 3410 | 3348 |
 | Best | 2927 | 3469 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | DenLaz | repetition ⏸️ | 12/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/R4pk1/6p1/4n1Np/4P2P/6P1/1r6/5K2 b - - 22 53">Link</a> | Rapid |
-| DenLaz | **Hikaru** | win 🥇 | 12/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6r1/8/8/8/6K1/6R1/5k2/8 w - - 53 125">Link</a> | Rapid |
-| mishanick | **Hikaru** | win 🥇 | 12/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/8/2q5/7p/8/K5k1 w - - 2 81">Link</a> | Rapid |
-| **Hikaru** | mishanick | insufficient ⏸️ | 12/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/3K4/5k2/8/8/8 w - - 0 92">Link</a> | Rapid |
-| Qochari | **Hikaru** | resigned ❌ | 11/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/6pk/6p1/5pP1/2R4P/5PK1/8 b - - 0 72">Link</a> | Blitz |
-| **Hikaru** | Qochari | win 🥇 | 11/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5k2/p2r1P2/R7/5N2/8/6K1/8 b - - 2 71">Link</a> | Blitz |
-| **Hikaru** | Qochari | checkmated ❌ | 11/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5rk1/pp2R1p1/2p3Qp/3p3P/2qP4/PK3P2/1P1R2P1/7r w - - 15 42">Link</a> | Blitz |
-| Qochari | **Hikaru** | resigned ❌ | 11/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=R1k1r3/7Q/2q5/5p2/pn3P2/1P6/2PR2PP/1K6 b - - 2 29">Link</a> | Blitz |
-| **Hikaru** | Qochari | win 🥇 | 11/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1k1r3r/1p1b4/p1N1pp1p/3p3q/3N4/1Q4P1/PPP4P/1K1R3R b - - 1 24">Link</a> | Blitz |
-| **Hikaru** | Xyvora | win 🥇 | 11/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r5k1/6pp/2pqpR2/p2pp1Q1/Pp2P3/1N1PP2P/1PP3P1/6K1 b - - 0 25">Link</a> | Blitz |
+| **Hikaru** | DenLaz | resigned ❌ | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2p1r3/8/5p2/2PK4/6k1/8/7R w - - 2 49">Link</a> | Rapid |
+| DenLaz | **Hikaru** | stalemate ⏸️ | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=7k/5Q2/8/5K2/5P2/8/8/8 b - - 0 70">Link</a> | Rapid |
+| **Hikaru** | DenLaz | resigned ❌ | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5B2/8/5ppp/8/2K1k1nP/8/8 w - - 4 63">Link</a> | Rapid |
+| DenLaz | **Hikaru** | repetition ⏸️ | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/7p/p1kbp1p1/1p6/4P1P1/1P5P/P2BK3/8 b - - 8 36">Link</a> | Rapid |
+| **Hikaru** | DenLaz | agreed ⏸️ | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=4rbk1/5pp1/4n3/8/8/4BK1P/3N2P1/2R5 b - - 3 41">Link</a> | Rapid |
+| **Hikaru** | GHANDEEVAM2003 | win 🥇 | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=6R1/7k/6Q1/6p1/8/1K3P2/6n1/7q b - - 11 63">Link</a> | Rapid |
+| GHANDEEVAM2003 | **Hikaru** | repetition ⏸️ | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6p1/5p2/1N1kp2p/1P2n2P/4P1P1/4K3/8 w - - 10 45">Link</a> | Rapid |
+| **Hikaru** | GHANDEEVAM2003 | stalemate ⏸️ | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/8/8/8/7k/7p/7K w - - 2 68">Link</a> | Rapid |
+| GHANDEEVAM2003 | **Hikaru** | repetition ⏸️ | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/5kp1/1p2n2p/p1p4P/P3R3/2BPK3/1P2P3/7r w - - 24 67">Link</a> | Rapid |
+| **Hikaru** | GHANDEEVAM2003 | repetition ⏸️ | 14/8/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r3r1k1/5p2/4qR1Q/2n1P3/3B4/1P6/p5PP/6K1 w - - 9 38">Link</a> | Rapid |
 
 <!--END_SECTION:chessStats-->
 
