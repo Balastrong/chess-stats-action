@@ -9,21 +9,21 @@ The content genrated by the action starts here:
 
 | Type | Rapid ⏲️ | Blitz ⚡ | Bullet 🔫 |
 |:---:|:---:|:---:|:---:|
-| Current | 2838 | 3500 | 3346 |
-| Best | 2927 | 3500 | 3570 |
+| Current | 2838 | 3482 | 3346 |
+| Best | 2927 | 3503 | 3570 |
 
 | White ⚪ | Black ⚫ | Result 🏆 | Date 📅 | Position 🗺️ | Type 🕕 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **Hikaru** | demon64fields | win 🥇 | 5/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r1r1q1k1/p4pQp/1p1P1Bp1/4Ppn1/8/P6P/5PP1/R5K1 b - - 1 35">Link</a> | Blitz |
-| demon64fields | **Hikaru** | win 🥇 | 5/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2b2rk1/p1q4p/1pN3p1/3p3r/P1p1n3/2P1P3/1P2QPBP/R2R2K1 w - - 10 28">Link</a> | Blitz |
-| **Hikaru** | Suleyman_Chess06 | win 🥇 | 5/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1kb5/2p5/1bP3Q1/6P1/4P2P/6K1/8 b - - 0 59">Link</a> | Blitz |
-| Suleyman_Chess06 | **Hikaru** | win 🥇 | 5/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r2rk1/pp2b1p1/4p1p1/4N3/3P1nQ1/7P/PP2qPP1/R4RK1 w - - 3 21">Link</a> | Blitz |
-| **Hikaru** | Suleyman_Chess06 | win 🥇 | 5/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r2k1/1p3pp1/p4r1p/2qp4/3RR3/2P4P/PPQ2PP1/5B1K b - - 0 28">Link</a> | Blitz |
-| **Hikaru** | subham777 | win 🥇 | 5/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/5k2/2KN1p2/2bPp1p1/4P1P1/5P2/8 b - - 0 73">Link</a> | Blitz |
-| subham777 | **Hikaru** | win 🥇 | 5/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=3r1k2/p3Npb1/1p1q2p1/7p/3n1Q2/5BP1/PP3P1P/4R1K1 w - - 6 26">Link</a> | Blitz |
-| **Hikaru** | subham777 | win 🥇 | 5/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r5k1/pp3pb1/6pp/8/1n3B2/6P1/PqNRQP1P/3R2K1 b - - 3 22">Link</a> | Blitz |
-| **Hikaru** | laijfer | win 🥇 | 4/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1R6/5p2/5Pkp/4P1p1/8/3BK1P1/b1r5/8 b - - 2 53">Link</a> | Blitz |
-| laijfer | **Hikaru** | win 🥇 | 4/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/1p1kp3/p7/6R1/4P3/1P2Kp2/1r6/8 w - - 2 48">Link</a> | Blitz |
+| Sibelephant | **Hikaru** | resigned ❌ | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=r7/P7/2N2k2/7p/3R4/8/4K3/8 b - - 0 49">Link</a> | Blitz |
+| rednova1729 | **Hikaru** | win 🥇 | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=1Bb5/p5pp/P4pk1/1Bb5/1n6/7P/1P2KPP1/8 w - - 5 47">Link</a> | Blitz |
+| **Hikaru** | VincentKeymer | win 🥇 | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/2k1K3/3R4/8/8/8/8/8 b - - 10 77">Link</a> | Blitz |
+| LiemLe | **Hikaru** | resigned ❌ | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/2k5/5N2/3P4/1PBK1P2/P7/8 b - - 0 56">Link</a> | Blitz |
+| **Hikaru** | mishanick | win 🥇 | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/4k3/P3P1K1/5P2/2Bb4/8/8/8 b - - 0 54">Link</a> | Blitz |
+| rasmussvane | **Hikaru** | win 🥇 | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/6pk/1p6/8/1P3K2/8/4P1p1/8 w - - 0 53">Link</a> | Blitz |
+| **Hikaru** | amintabatabaei | win 🥇 | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2b5/2p3k1/n1P3p1/3Pp3/R3N1P1/2N2p1r/5B2/6K1 b - - 1 42">Link</a> | Blitz |
+| **Hikaru** | sokidze | repetition ⏸️ | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=8/8/4k3/6p1/4K1P1/8/8/8 w - - 11 63">Link</a> | Blitz |
+| LionTheLeon_06 | **Hikaru** | win 🥇 | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=5r2/7k/p2pB1p1/1p1P2Pp/1P6/P1bpp1P1/R4P2/4K3 w - - 2 38">Link</a> | Blitz |
+| **Hikaru** | vovachesss | win 🥇 | 6/10/2026 | <a href="http://www.ee.unb.ca/cgi-bin/tervo/fen.pl?select=2r5/2P2Q2/2R3pk/4p2p/1P2P2P/q5P1/P4P2/6K1 b - - 2 40">Link</a> | Blitz |
 
 <!--END_SECTION:chessStats-->
 
